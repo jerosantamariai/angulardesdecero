@@ -274,13 +274,13 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 206. Insertar en base de datos - 10:36
 207. Editar héroes - 10:42
 208. Excepciones en nuestro ImagenPipe - 08:07
-Eliminar registros - 06:21
-Pipes Puros e Impuros - 05:50
-Material Snackbar - 06:30
-Material Dialog - 07:46
-Información desde y hacia el dialogo - 06:25
-Adecuar los textos de la pantalla de agregar - 04:36
-Código fuente de la sección - 00:09
+209. Eliminar registros - 06:21
+210. Pipes Puros e Impuros - 05:50
+211. Material Snackbar - 06:30
+212. Material Dialog - 07:46
+213. Información desde y hacia el dialogo - 06:25
+214. Adecuar los textos de la pantalla de agregar - 04:36
+215. Código fuente de la sección - 00:09
 
 
 #### SECCIÓN 15: PROTECCIÓN DE RUTAS
