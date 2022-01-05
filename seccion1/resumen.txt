@@ -1,0 +1,15 @@
+SECCIÓN 1: CONTENIDO DEL CURSO
+Video 1: Introducción
+Se necesita saber algo de programación y de Javascript. El curso esta enfocado en Angular y no enseñará a programar propiamente tal. Poner pausa cuando se pida y realizar el ejercicio por muy fácil que sea.
+
+Video 2: ¿Cómo funciona el curso?
+Repasando el contenido general del curso.
+
+Video 3: ¿Cómo hacer preguntas?
+En cada video hay un lugar especial para hacer preguntas (justo abajo del video).
+
+Video 4: Instalaciones necesarias y recomendadas
+Instalaciones varias
+
+Video 5: Instalar Angular CLI
+Instalación del Framework

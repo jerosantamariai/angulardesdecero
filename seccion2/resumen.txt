@@ -1,0 +1,28 @@
+SECCIÓN 2: CONCEPTOS GENERALES PARA EMPEZAR CON ANGULAR Y TYPESCRIPT
+Video 6: Introducción a la sección
+Cada 6 meses aproximadamente sacan una nueva versión de Angular.
+
+Video 7: Temas puntuales de la sección
+Se hablará solo de teoría.
+
+Video 8: ¿Qué es TS?
+TS es un superset de JS, mejorando el lenguaje de programación. Si se sabe JS conoces un 80% de TS. TS lo mantiene Microsoft
+
+Lo único que nos permite distinguir específicamente si el código es JS o TS es ver la extension del archivo. TS ofrece: 
+
+- Un tapado estricto y flexible (que tipo de datos es la variable, como se compone y que propiedades tiene), 
+- Mejora enormemente la legalidad del código, y 
+- Nos permite usar características modernas (mejora intellisense).
+
+Angular utiliza TS principalmente para tener todos los beneficios anteriores y la inyección de componentes rápidamente.
+
+Video 9: Mitos y Realidades de Angular
+Mito: Angular es mejor que React, Vue y Svelte. Cada uno es bueno y malo depende donde se vea.
+Mito: Angular es mas ordenado que R, V y S.
+Mito: Angular es complicado de aprender. Depende de tu background y si sabes JS no debería ser complicado.
+Verdad: Angular libera nuevas versiones constantemente. Cada 6 meses aproximadamente.
+Mito: Las aplicaciones de Angular son muy pesadas. Mucho del código no va al server.
+Mito: Angular no es SEO Friendly.
+Mito: NG no soporta diferentes patrones como Redux.
+Verdad: NG en todas sus versiones es el mismo NG.
+Mito: Solo puedo correr código de TS en mis apps de NG.
