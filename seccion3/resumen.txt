@@ -1,0 +1,78 @@
+SECCIÓN 3: BASE DE TS
+Video 10: Introducción a la Sección
+Es recomendable entender primero TS que ir directamente a NG y muchas veces puede ser un error tratar de entender ambos al mismo tiempo cómo pasa en muchos cursos.
+
+Video 11: Temas Puntuales de la Sección
+Imagen de lo que se verá.
+
+Video 12: Nota antes de empezar
+Imagen sobre recomendación
+
+Video 13: Inicio de proyecto - Introducción a TS
+Descargar el proyecto, abrirlo en VSCode, en terminal con la carpeta abierta colocar “npm Install” y una vez instalado escribir “npm start” y el programa correrá sin problemas. OJO: Si viene con errores al instalar, no forzar la auditoria o se quiebra el código y debes volver a comenzar de 0.
+
+Video 14: Tipos básicos y Conceptos generales
+Pagina oficial de TS que da los tipos de variables que existen (https://www.typescriptlang.org/docs/handbook/basic-types.html).
+
+Video 15: Objetos, Arreglos e Interfaces.
+Al trabajar con TS hay que evitar que al hacer “hover” en la variable aparezca “any”. Es una buena practica mantener siempre definido que tipo de variable es lo que estamos definiendo, ya sea string, number, boolean, etc.
+
+Let —> Variable
+Const —> Constante
+
+interface —> es la forma de definir de que tipos eran las variables dentro de un objeto
+variable? —> Cuando una variable termina con signo de interrogación estamos diciendo que la variable es opcional.
+
+Video 16: Funciones Básicas
+- Funciones se llaman igual que como en JS. Incluso podemos utilizar las funciones flechas.
+- Recordar que SIEMPRE hay que agregar los tipos de variable a los argumentos. 
+- El código arrojará error en caso de que realicemos una función con algún argumento que no aparezca y para ello colocamos que puede ser opcional con signo de interrogación, y estos argumentos opcionales DEBEN ir luego de los argumentos obligatorios (no entremedio).
+
+Video 17: Funciones con Objetos como Argumentos
+Comenzamos a trabajar con interfaces.
+
+Video 18: Tarea sobre Objetos e Interfaces.
+Como definir una interface con objetos anidados.
+
+Video 19: Desestructuración de Objetos
+Desestructuracion se refiere a cuando desarmamos un grupo de variables agrupadas en un Objeto/Arreglo para utilizarlas de forma independiente de forma que nosotros la necesitemos. Comenzar a ver los comentarios dejados en los archivos. Archivo: “05-desestructuracion-basica”.
+
+Video 20: Desestructuración de Arreglos
+Lo mismo que del video 19.
+
+Video 21: Desestructuración de Argumentos
+Archivo 06-desesrtucturacion-funcion.ts
+
+Video 22: Importación y Exportación
+Archivo 07-exportacion-importacion.ts
+
+Video 23: Clases Básicas
+Clases en JS es lo mismo que las de TS. Cabe destacar que las propiedades pueden tomar una anteposición que puede ser:
+
+- Private: propiedad será visible dentro de la clase
+- Public: fuera de la clase podrá ser visible
+- Static: voy a poder acceder al valor sin la necesidad de crear la instancia de la clase.
+
+Aquí se define el por qué interface es una “clase tonta”, por que al crear una clase puedo hacer lo mismo que en una clase, solo que en la clase puedo realizar múltiples funciones dentro de ellas. No se puede hacer por ejemplo una concatenación.
+
+Video 24: Constructor de una Clase
+***Si no antepongo que tipo de anteposición tendrá será PUBLIC.
+
+Aquí creamos un constructor para realizar buenas practicas en cuanto al uso de atributos dentro de una clase.
+
+Video 25: Extender una Clase
+En esta ocasión conocemos la palabra “extends” que se utiliza para traer la información de otra clase dentro de otra clase utilizando la función super(). Ojo, la clase que será insertada dentro de la otra debe estar definida con anterioridad a la clase donde se usa extends.
+
+Video 26: Genéricos
+Cuando tengo una función y no sé que tipo de argumento le voy a entregar a ella, para no definir un tipo puntual utilizo <T> y el argumento será de tipo “T”, definiendo de esta forma un “argumento de tipo genérico”. Esto me ayuda a que cada vez que ingrese información a la función, esta se defina automáticamente como que tipo estoy entregándole, sin generar errores ni permitir que se defina como “any”.
+
+Video 27: Decoradores de Clase
+Los decoradores ayudan a cambiar las clases cuando estas ya están definidas.
+
+NG web oficial: https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators
+
+Video 28: Encadenamiento Opcional
+Cuando tenemos un atributo opcional, puede que nos genere problemas el traer la información solicitada, así que perfectamente se puede realizar colocar un operador binario (if) para que en caso de que genere el error, el programa siga ejecutándoselo y entregue una solución propuesta cuando se genere un “undefined”.
+
+Video 29: Código fuente de la sección
+Imagen que entrega recurso descargable con todos los códigos realizados en esta sección. Yo los hice =)
