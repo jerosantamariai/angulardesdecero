@@ -22,9 +22,16 @@ export class HeroeComponent {
     // }
 
     //...PERO PUEDO USAR ESTE METODO TAMBIEN, CON LA DIFERENCIA QUE NO DEBO LLAMARLO COMO FUNCION EN EL HTML
-    get capitalizado() {
+    get capitalizado():string {
         return this.nombre.toUpperCase();
     }
 
+    cambiarNombre():void {
+        this.nombre = 'Spiderman';
+    }
+
+    cambiarEdad():void {
+        this.edad = 20;
+    }
 
 }
