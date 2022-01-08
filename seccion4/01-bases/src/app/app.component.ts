@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']      /* DE DONDE OBTENDRA LOS ESTILOS LOCALES */
 })
 export class AppComponent {
-  public titulo: string = 'Contador App';
+  
+
 }
