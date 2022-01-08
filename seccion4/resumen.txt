@@ -1,0 +1,115 @@
+SECCIÓN 4: INTRODUCCIÓN A ANGULAR
+
+Video 30: Introducción a la sección - 03:00
+Explicación de lo que se hará en esta sección. Empezamos con NG.
+
+Video 31. Temas puntuales de la sección - 00:11
+Imagen con un resumen de lo que se vera en la sección.
+
+Video 32. Introducción a Angular - 08:18
+- NG es un framework, marco de trabajo estandarizado.
+- Viene con todo lo que se necesita para trabajar. Pocas veces se necesitara algo extra, a menos que sea algo especializado.
+- Son modulares. Cada modulo tiene un objetivo especifico.
+- Google es quien mantiene el framework
+
+NG se compone de 5 bloques especiales:
+- Componentes: Bloques de código que tiene un archivo HTML con una clase de TS.
+- Servicios: Reemplaza Redux para realizar las funciones.
+- Directivas:  Es muy parecido al componente que viene con un HTML con cierta funcionalidad integrada.
+- Rutas: URL para poder navegar.
+- Módulos: Agrupar todo lo que se ha hecho. Incluso otros módulos. Ejemplo: Modulo Producto, Modulo Clientes, Modulo Proveedores, etc.
+
+Video 33. Crear un proyecto de Angular - 07:21
+Se realiza la descarga de un nuevo proyecto de ng, el comando en la terminal estando en la carpeta donde se trabajara, se escribe “ng new nameProject”, la consola para un par de preguntas y luego comenzara la descarga de paquetes.
+
+Para este trabajo no sé descargara router, por qué lo estaremos aprendiendo, y se usara una planilla de estilos CSS.
+
+Video 34. Nota de actualización - 00:19
+Aquí aparece una imagen donde se comentan las actualizaciones que ocurrieron entre la grabación del video 33 con ng11 a la versión actual que se encuentra disponible para trabajar.
+
+Video 35. Explicación de cada archivo del proyecto - 08:43
+- tslin.json: archivo de configuración. Reglas que nos van a obligar a programar de cierta forma.
+- Tsconfig.spec.json: configuración. Toma lo que esta en el archivo siguiente y es para configurar las pruebas.
+- Tsconfig.json: configuración. Es la configuración de TS en el proyecto.
+- tsconfig.app.json: configuración de la app.
+- Readme.md: texto explicativo.
+- package.json: Configuration. Sumamente importante por que refleja las dependencias, comandos y muchas cosas que hace funcionar la app.
+- Package.lock.json: configuration. Como se construyo toda la app descargada.
+- Karma.conf.js: Para realizar pruebas.
+- angular.json: configuraciones importantes y específicos de la aplicación.
+- .gitignore: lo que no quiero que git grabe en linea.
+- .editorconfig: reglas para los archivos de TS se usa poco.
+- Browserlist: los browser que soporta la app.
+- Node_modules: paquetes de ng.
+- E2e: configuración de pruebas End-2-End.
+
+Video 36. Explicación de los archivos dentro del SRC - 07:02
+Ahora se revisa lo que esta dentro de la carpeta “SRC”
+Carpeta APP:
+- App.component.html: HTML del componente.
+- App.component.css: CSS del componente, solo del componente.
+- App.component.spec.ts: para hacer pruebas. Se puede borrar.
+- App.module.ts: modulos que compone el componente. Agrupador.
+
+Carpeta ASSETS:
+- Aquí se dejan los recursos estáticos. Imágenes, sonidos, etc.
+
+Carpeta ENVIROMENTS:
+- Environment.prod.ts:
+- Environment.ts: me permite cambiar entre ambientes de producción y desarrollo
+
+Archivos sueltos
+- Favicon: icono
+- index.html: La pagina donde se renderiza toda la app en el browser.
+- Main.ts: nunca se toca. Ambiente en que esta corriendo.
+- Pollifills: renderizar en navegadores viejos.
+- styles.css: planilla de estilo general (NO LOCAL)  para todo el programa.
+- Test.ts: configuración de nuestro ambiente de prueba. Eso es para un curso mas avanzado.
+
+Video 37. App Component - 07:49
+Se comenzara a trabajar con los archivos del componente. Se aplica un estilo general al proyecto.
+
+Video 38. Contador App - 06:54
+Un evento se identifica en paréntesis como atributo en un tag. Se puede escribir el algoritmo en el mismo tag.
+
+Video 39. Métodos en el componente - 05:12
+Por. Buenas practicas no se recomienda hacer una función en nuestro tag, si no que todas las funcionalidades deben quedar en nuestro archivo TS. Podemos hacer función para cada botón pero también podemos hacer una sola función genérica que sirva para ambos botones.
+
+Video 40. Tarea con el contador - 03:42
+Hacer una nueva propiedad llamada base inicializada en cualquier numero, y sume o reste de 5 en 5.
+
+Video 41. Crear un componente manualmente - 09:41
+Hay una forma mas automática de crear un componente, pero aquí lo hacemos de 0 para entender los archivos que se deben crear y sus lineas de código para poder trabajar con ellos.
+
+Video 42. Componente de Héroe y separación de directorios - 08:01
+Aprendemos a mover archivos entre carpetas y como reconfigurarlo. Jugamos un poco el dinamismo del HTML.
+
+Video 43. Cambios en el template del componente - 06:51
+Revisar archivos en ‘./seccion4/01-bases/…’
+
+Video 44. Concepto de one way data binding - enlazado en una sola vía - 06:21
+Se utilizan algunas funciones que demuestran que la aplicación puede ejecutar diferentes scripts. Ver los archivos en ‘./seccion4/01-bases/…’
+
+Video 45. Crear componente de forma automática - 06:15
+Utilizamos el procedimiento que se comento en el video 41, donde aplicamos en terminal ‘ng g c nameComponent” para que la aplicación haga todo por nosotros y poder trabajar rápidamente.
+
+Video 46. Directiva *ngFor - 12:36
+*ngFor: Se usa para renderizar el contenido de un arreglo y objeto.
+
+Video 47. Directiva *ngIf - 04:51
+Renderizado condicional, o sea, mostrar lo que se debe mostrar dada una acción.
+
+Video 48. Ng-Template y el ngIf-else - 04:32
+Podemos utilizar ng-template como un tag para mostrar o no lo que queremos renderizar. Se usa en conjunto con ngIf colocando el operador binario else luego de la condición.
+
+Video 49. Módulos - 10:09
+Aprendemos que es un modulo, como crear uno manualmente, como configurarlo y por qué se necesita. Idealmente utilizamos estos módulos para poder participar nuestras apps para que queden más ordenadas y no existan infinitas lineas de código importando cada uno de los componentes.
+
+Video 50. Módulos - segunda parte - 08:16
+Aquí se explica lo que hace el CommonModule, que hace referencia a todas las funciones especiales de Angular como los *ngIf. Hay nueva tarea haciendo nuevos enrutamientos y seccionando el código de manera que pueda quedar más legible.
+
+Video 51. Bonus: Hacer respaldo de nuestro proyecto en GitHub - 07:35
+Trabajamos con nuestro GitHub y guardamos ahí nuestro código.
+
+Video 52. Código fuente de la sección - 00:17
+Imagen con instrucciones para descargar los códigos hechos en esta sección.
