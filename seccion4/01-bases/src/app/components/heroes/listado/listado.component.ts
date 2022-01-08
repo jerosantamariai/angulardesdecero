@@ -4,11 +4,21 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-listado',
   templateUrl: './listado.component.html',
 })
-export class ListadoComponent implements OnInit {
+export class ListadoComponent {
 
-  constructor() { }
+  heroes  : string[] = [ 
+    'Spiderman', 
+    'Ironman', 
+    'Hulk', 
+    'Thor',
+    'Capitán America'
+  ];
+  heroesBorrados  : string = '';
 
-  ngOnInit(): void {
+  borrarHeroe() {
+    this.heroesBorrados = this.heroes.pop() || '';
   }
 
+
+  
 }
