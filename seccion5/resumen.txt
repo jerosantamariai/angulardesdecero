@@ -1,0 +1,52 @@
+SECCIÓN 5: EXPANDIENDO NUESTRAS BASES
+17 CLASES - 1 H 54 MIN
+Video 53. Introducción a la sección - 03:00
+Lo que se va a hacer en la sección
+
+Video 54. Temas puntuales de la sección - 00:21
+Resumen del video anterior pero de forma escrita
+
+Video 55. Continuación del proyecto - 02:21
+Se duplica lo que hicimos en la sección anterior y comenzaremos los ejercicios de la nueva sección
+
+Video 56. Módulo DBZ (Dragon Ball Z) - 10:39
+Ver archivos seccion5
+
+Video 57. Diseño de la pantalla a trabajar - 04:39
+Ver archivos seccion5 - armamos el renderizado del ejercicio
+
+Video 58. FormsModule - 08:37
+Ver archivos seccion5 - armamos el formulario
+
+Video 59. ngModel - 09:03
+Ver archivos seccion5 - insertamos la información al formulario
+
+Video 60. Mostrar listado de personajes - 06:54
+Ver archivos seccion5 - mostramos los personajes ingresados
+
+Video 61. Crear componentes hijos - 05:47
+Ver archivos seccion5 - se pica el archivo para poder tener componentes reutilizables. Partimos creando el componente y traspasando el HTML…
+
+Video 62. @Input - 06:55
+Ver archivos seccion5 - se pica el archivo para poder tener componentes reutilizables. …Aquí traspasamos la información del .ts y creamos un archivo nuevo de interface para que se pueda trabajar con las configuraciones realizadas.
+
+Video 63. Tarea con inputs y módulos - 12:46
+Terminamos de picar el archivo y reconfigurando sus funciones.
+
+Video 64. @Outputs y EventEmitter - 10:38
+Output sirve para emitir un componente al padre. NO ME RESULTO EL EJERCICIO, PERO YA DESDE EL EJERCICIO ANTERIOR FUNCIONO CORRECTAMENTE Y AL HACERLO ME DABA SOLO ERRORES. REFORZAR DE ALGUN MODO. <AGRADEZCO APOYO>
+
+Video 65. Bonus: Depuración de aplicación - 08:53
+Tips para depurar apps. Se necesita usar Chrome. “Debugger” y un debugger de VSC.
+
+Video 66. Servicios - 08:41
+Servicios en Angular es lo mas fuerte que tiene por su eficiencia. Se pueden hacer servicios de forma automática o manual. Es un lugar centralizada toda la información de la aplicación.
+
+Video 67. Centralizar el acceso de los personajes en el servicio - 08:34
+Practica del video anterior.
+
+Video 68. Métodos en el servicio - 05:33
+No solo podemos usar get en el servicio sino que post.
+
+Video 69. Código fuente de la sección - 00:12
+Descargable con los códigos realizados
