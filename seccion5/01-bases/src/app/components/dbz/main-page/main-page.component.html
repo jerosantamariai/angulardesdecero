@@ -3,34 +3,9 @@
 
 <div class="row">
     <div class="col">
-        <h3>PERSONAJES</h3>
-        <hr>
-        <ul>
-            <li *ngFor="let personaje of personajes, let poder of personajes">
-                {{ personaje.nombre }} - {{ personaje.poder | number }}
-            </li>
-            
-        </ul>
+       <app-personajes [personajes]="personajes"></app-personajes>
     </div>
     <div class="col">
-        <h3>AGREGAR</h3>
-        <hr>
-        <form (ngSubmit)="agregar(  )" action="">
-
-            <input 
-                type="text" 
-                placeholder="Nombre"
-                name="nombre"
-                [(ngModel)]="nuevo.nombre"
-            >
-            <input
-                type="number" 
-                placeholder="Poder" 
-                name="poder"
-                [(ngModel)]="nuevo.poder"
-            >
-
-            <button type="submit">Agregar</button>
-        </form>
+        <app-agregar [personajes]="personajes"></app-agregar>
     </div>
 </div>

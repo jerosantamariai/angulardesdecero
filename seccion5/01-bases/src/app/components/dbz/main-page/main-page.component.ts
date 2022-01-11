@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
-interface Personaje {
-  nombre  : string;
-  poder   : number;
-}
+import { Personaje } from '../interfaces/dbz.interface';
 
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.css']
 })
+
 export class MainPageComponent {
 
   personajes: Personaje[] = [
@@ -27,28 +24,5 @@ export class MainPageComponent {
     },
   ]
 
-  nuevo : Personaje = {
-    nombre: '',
-    poder: 0
-  }
-
-  agregar(  ) {
-
-    if ( this.nuevo.nombre.trim().length === 0) {
-      return;
-    }
-
-    this.personajes.push( this.nuevo );
-
-    this.nuevo = {
-      nombre: '',
-      poder: 0
-    }
-
-    console.log(this.nuevo);
-
-    
-
-  }
-
 }
+
