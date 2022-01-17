@@ -285,40 +285,40 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 15: PROTECCIÓN DE RUTAS
 ##### 10 CLASES - 54 MIN
-Introducción a la sección - 01:36
-Temas puntuales de la sección - 00:17
-Continuación de proyecto - HeroesApp - 02:31
-Pantalla de Login Básico - 05:17
-AuthService - Servicio para mantener el estado de la autenticación - 06:45
-Mostrar la información del usuario activo - 06:23
-Angular Guards - CanLoad - 12:55
-CanActivate - 05:18
-Mantener la sesión del usuario - 12:57
-Código fuente de la sección - 00:19
+216. Introducción a la sección - 01:36
+217. Temas puntuales de la sección - 00:17
+218. Continuación de proyecto - HeroesApp - 02:31
+219. Pantalla de Login Básico - 05:17
+220. AuthService - Servicio para mantener el estado de la autenticación - 06:45
+221. Mostrar la información del usuario activo - 06:23
+222. Angular Guards - CanLoad - 12:55
+223. CanActivate - 05:18
+224. Mantener la sesión del usuario - 12:57
+225. Código fuente de la sección - 00:19
 
 
 #### SECCIÓN 16: FORMULARIOS - TEMPLETES Y LAZYLOAD
 ##### 20 CLASES - 2 H 19 MIN
-Introducción a la sección - 03:03
-Temas puntuales de la sección - 00:20
-Inicio de la sección - Formularios - 04:05
-Creación de módulos necesarios - 09:04
-Componentes y LazyLoad de formularios - 10:05
-SideMenu - 07:12
-Template: Diseño del formulario básico - 08:31
-Template: FormsModule - 10:42
-Template: Mostrar mensajes de error - 09:00
-ViewChild - 05:00
-Template: Validar número igual mayor a 0 - 06:53
-Directivas personalizadas - CustomMin - Opcional - 13:57
-Template: Limpiar el formulario - 05:44
-Template: Formularios dinámicos y arreglos - 11:18
-Agregar elementos de forma dinámica - 07:05
-Eliminar elemento creado de forma dinámica - 02:44
-Agregar juegos favoritos - 06:11
-Template: Radio, Check y Switches - 08:55
-Template: Validando Radios, Checks y Switches - 09:15
-Código fuente de la sección - 00:18
+226. Introducción a la sección - 03:03
+227. Temas puntuales de la sección - 00:20
+228. Inicio de la sección - Formularios - 04:05
+229. Creación de módulos necesarios - 09:04
+230. Componentes y LazyLoad de formularios - 10:05
+231. SideMenu - 07:12
+232. Template: Diseño del formulario básico - 08:31
+233. Template: FormsModule - 10:42
+234. Template: Mostrar mensajes de error - 09:00
+235. ViewChild - 05:00
+236. Template: Validar número igual mayor a 0 - 06:53
+237. Directivas personalizadas - CustomMin - Opcional - 13:57
+238. Template: Limpiar el formulario - 05:44
+239. Template: Formularios dinámicos y arreglos - 11:18
+240. Agregar elementos de forma dinámica - 07:05
+241. Eliminar elemento creado de forma dinámica - 02:44
+242. Agregar juegos favoritos - 06:11
+243. Template: Radio, Check y Switches - 08:55
+244. Template: Validando Radios, Checks y Switches - 09:15
+245. Código fuente de la sección - 00:18
 
 
 #### SECCIÓN 17: FORMULARIOS REACTIVOS
