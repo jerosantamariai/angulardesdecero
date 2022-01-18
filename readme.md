@@ -323,22 +323,22 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 17: FORMULARIOS REACTIVOS
 ##### 16 CLASES - 1 H 47 MIN
-Introducción a la sección - 02:00
-Temas puntuales de la sección - 00:30
-Continuación de proyecto - Formularios - 08:58
-Primeros pasos en formularios reactivos - 06:45
-FormBuilder - 05:44
-Validaciones básicas - Forms Validator - 06:31
-Mostrar mensajes de error - 07:12
-Submit del formulario - 07:32
-Tarea: Validar un nuevo campo - 08:45
-FormArray - 10:50
-Agregar controles al FormArray - 11:00
-Eliminar elementos de un FormArray - 04:04
-Formularios Reactivos: Switches - 12:14
-Actualizar el valor de la persona - 08:13
-Documentación de formularios reactivos en Angular - 06:05
-Código fuente de la sección - 00:10
+246. Introducción a la sección - 02:00
+247. Temas puntuales de la sección - 00:30
+248. Continuación de proyecto - Formularios - 08:58
+249. Primeros pasos en formularios reactivos - 06:45
+250. FormBuilder - 05:44
+251. Validaciones básicas - Forms Validator - 06:31
+252. Mostrar mensajes de error - 07:12
+253. Submit del formulario - 07:32
+254. Tarea: Validar un nuevo campo - 08:45
+255. FormArray - 10:50
+256. Agregar controles al FormArray - 11:00
+257. Eliminar elementos de un FormArray - 04:04
+258. Formularios Reactivos: Switches - 12:14
+259. Actualizar el valor de la persona - 08:13
+260. Documentación de formularios reactivos en Angular - 06:05
+261. Código fuente de la sección - 00:10
 
 
 #### SECCIÓN 18: FORMUALRIOS: VALIDACIONES MANUALES Y ASÍNCRONAS
