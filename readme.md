@@ -343,22 +343,22 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 18: FORMUALRIOS: VALIDACIONES MANUALES Y ASÍNCRONAS
 ##### 16 CLASES - 1 H 36 MIN
-Inicio de sección - 01:43
-Temas puntuales de la sección - 00:25
-Continuación de proyecto - 05:30
-Resolución de la tarea - Ruta y LazyLoad - 05:42
-Diseño de la pantalla de registro - 06:24
-Validar contra una expresión regular - 10:57
-Evaluar un email - 03:59
-Validaciones personalizadas - 08:04
-Separar la lógica de validaciones del componente - 09:17
-Validar contraseñas iguales - 13:11
-Preparaciones para Validaciones Asíncronas - 04:40
-Validaciones asíncronas - 10:06
-Estado del formulario - 04:35
-Errores personalizados - 05:00
-Mensaje de error personalizado - 06:26
-Código fuente de la sección - 00:12
+262. Inicio de sección - 01:43
+263. Temas puntuales de la sección - 00:25
+264. Continuación de proyecto - 05:30
+265. Resolución de la tarea - Ruta y LazyLoad - 05:42
+265. Diseño de la pantalla de registro - 06:24
+266. Validar contra una expresión regular - 10:57
+267. Evaluar un email - 03:59
+268. Validaciones personalizadas - 08:04
+269. Separar la lógica de validaciones del componente - 09:17
+270. Validar contraseñas iguales - 13:11
+271. Preparaciones para Validaciones Asíncronas - 04:40
+272. Validaciones asíncronas - 10:06
+273. Estado del formulario - 04:35
+274. Errores personalizados - 05:00
+275. Mensaje de error personalizado - 06:26
+276. Código fuente de la sección - 00:12
 
 
 #### SECCIÓN 19: FORMULARIOS REACTIVOS - MULTIPLES SELECTORES ANIDADOS
