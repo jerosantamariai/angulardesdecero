@@ -1,0 +1,21 @@
+SECCIÓN 6: DESPLIEGUES RÁPIDOS A PRODUCCIÓN
+4 CLASES - 11 MIN
+Video 70. Introducción a la sección - 02:53
+Se comenta que aprenderemos a utilizar un servicio de despliegue gratuito en la nube para desplegar el trabajo que hemos venido haciendo. El sistema se llama Netlify
+
+Video 71. Temas puntuales de la sección - 00:17
+Imagen con resumen de los puntos a tocar en la sección
+
+Video 72. Generar build de producción - 05:25
+Para poder hacer un build de producción de una aplicación que hayamos hecho, en este caso, lo que va del curso. Se utiliza el script en terminal:
+
+npm build 
+
+o
+
+ng build —prod
+
+Lo que hará una carpeta “build” en nuestro directorio y todos los archivos dentro de el es parte de nuestra aplicación a desplegar en un hosting.
+
+Video 73. Desplegando en Netlify - 02:37
+Inscribirse en la pagina de Netlify y hacer drag and drop en ella con los archivos creados al realizar el script anterior.
