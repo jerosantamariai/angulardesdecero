@@ -1,0 +1,75 @@
+SECCIÓN 7: GIFSAPP - APLICACIÓN PARA BUSCAR IMAGENES
+20 CLASES - 2 H 7 MIN
+Video 74. Introducción a la sección - 02:58
+Introducción en la sección donde haremos una nueva aplicación para consumir API. Hay varias formas de consumir una API, se pude utilizar el Fetch API o el servicio HTTP que tiene Ng, siendo este ultimo el más recomendado.
+
+Video 75. Temas puntuales de la sección - 00:17
+Imagen con el resumen de los tomas a tocar en la sección.
+
+Video 76. Demostración del objetivo final de la sección - 02:01
+Video que muestra el resultado final de lo que se espera realizar al final de la sección.
+
+Video 77. Inicio de proyecto - GifsApp - 04:59
+Terminal: ng new 02-gifApp
+
+Video 78. Diseño inicial de nuestra aplicación de Gifs - 08:04
+Estructura HTML/CSS/Bootstrap básica para funcionar.
+
+Video 79. Módulo Shared - 07:39
+Armamos el Shared con el comando en terminal:
+
+ng g m shared
+
+Y luego agregamos todos los componentes globales/generales de la aplicación a la carpeta “shared”. En este caso, el SideBar exportando como un componente y agregándolo al modulo shared.
+
+ng g c sidebar
+
+Video 80. GifsModule y sus componentes - 07:17
+Aqui se divide la parte del cuerpo de la aplicación y se configura lo que se necesita.
+
+Video 81. @ViewChild - Obtener referencias a objetos del HTML - 11:57
+Video que muestra como capturar la información de un input en una variable local.
+
+Video 82. GifsService - 11:09
+Aqui realizamos la union de la búsqueda con el ingreso de información de manera que podamos ver los ingresos de datos en el Sidecar.
+
+Video 83. Controlar el historial de búsquedas - 06:57
+Controlar cantidad de elementos a mostrar, evitar vacios y los duplicados que ingresamos en el input.
+
+Video 84. Giphy Api Key - Giphy Developers - 07:14
+Conociendo la API, creando el ingreso y entendiendo el JSON usando Postman. Se usara el tamaño “downside_large”
+
+Video 85. Realizar una petición HTTP - 08:34
+Se puede hacer un Fetch o un Async para trabajar la información de la API, pero Ng tiene las peticiones HTTP.
+
+Primero se trabaja en app.module.ts, importando el HTTPClient
+Segundo se trabaja en él service a trabajar. En este caso gif.service.ts. Se genera el constructor y luego se ingresa la acción dentro de buscarGifs().
+
+Video 86. Mostrar los resultados en pantalla - 09:15
+Una vez que obtenemos la información anterior, nos preparamos para trabajar en los archivos donde queremos mostrar los resultados. Para este caso results.component
+
+Video 87. Colocando un tipado a las peticiones http - 09:47
+Una de las cosas que quedo pendiente del video anterior fue arreglar la información del tipado de las variables ingresadas, ya que quedaron como “any”. Aqui se resuelve.
+
+Video 88. LocalStorage - 10:25
+Uno de los problemas que tenemos es que no se puede almacenar las búsquedas anteriores y solo aparecen las nuevas. LocalStorage lo soluciona.
+
+LocalStorage: Información persiste pase lo que pase. Hasta que uno lo borre o cuando el PC la borre.
+SessionStorage: Todo lo que se grabe, al cerrar la sesión se borra.
+
+Se trabaja en el servicio. Con este video ya tenemos la posibilidad de trabajar con la memoria de la app, pero no carga las imágenes lo que se soluciona en el próximo video.
+
+Video 89. Cargar imágenes automáticamente - 04:42
+Aqui vemos cómo mostrar las imágenes de la ultima búsqueda guardada.
+
+Video 90. Obtener imágenes desde el sidebar - 03:31
+Aqui veo cómo hacer rehacer las brusquedades anteriores tocando la búsqueda guardada. Hacer una especie de historial. Vamos al Sidebar, agregamos una función al hacer click en el anchor tag y luego creamos la función en el TS del componente llamando a la función hecha anteriormente en el servicio.
+
+Video 91. HttpParams - 06:40
+Aqui se trabaja la URL de manera de poder hacerla mas dinámica.
+
+Video 92. Animate.style CSS - 03:43
+Biblioteca de estilos animados CSS. Recomendada: www.animated.style
+
+Video 93. Código fuente de la sección - 00:07
+Link para descargar el código realizado en la sección… NO SEAN FLOJOS, HAGANLO, VIENEN A ESTUDIAR!!!
