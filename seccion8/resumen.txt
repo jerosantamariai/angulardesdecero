@@ -1,0 +1,95 @@
+SECCIÓN 8: SPA - PAISESAPP
+25 CLASES - 2 H 43 MIN
+Video 94. Introducción a la sección - 02:15
+Vamos a hacer una aplicación de países con el concepto de Single Page Aplication (SPA).
+
+Video 95. Temas puntuales de la sección - 00:16
+Imagen resumen
+
+Video 96. Demostración de la sección - 01:40
+Vista de lo que se quiere lograr. NO TENGO ACCESO A LA API POR QUE AHORA NO ES PUBLICA Y HAY QUE PAGAR, ME SUSCRIBÍ PERO FUE IMPOSIBLE PODER HACER PETICIONES DESDE POSTMAN. MAS ADELANTE ME DI CUENTA QUE SE ENCONTRO UNA API SIMILAR, POR LO QUE DESCARGUE EL ARCHIVO DEL FINAL DE LA SECCIÓN Y LO HABILITE CORRECTAMENTE CON LOS DATOS DE LA NUEVA API.
+
+Video 97. Inicio de proyecto - PaisesApp - 05:42
+Instalamos el proyecto:
+
+ng new 03-paisesApp
+
+Instalamos bootstrap en index.html. Comenzamos a realizar la estructura de la app:
+
+- Carpeta Share: con los componentes comunes de la app como Navbar y footer.
+- Pais: con carpetas para components, interfaces, pages, services.
+
+Video 98. Estructura y explicación de la aplicación de países - 06:25
+Comenzamos las configuraciones:
+
+- Agregamos los Modelos a las carpetas País y Shared con “ng g m name”
+
+Video 99 Creando los módulos y los componentes básicos - 07:37
+- Agregamos los componentes. Sidecar, pais/pages/porCapital, pais/pages/porPais, pais/pages/porRegion, pais/pages/verPais
+- Exportar lo que se use fuera del archivo. Shared.module.ts > sidebar. pais.mudule.ts > porCapital, porRegion, verPais y porCapital.
+- Configurar el appModule, importando pais y shared.
+
+Video 100. Estructura HTML de nuestra aplicación - 04:48
+Estructura de los HTML. Comenzamos con app.component.html.
+
+Video 101. RouterModule - Rutas en nuestra aplicación - 13:25
+Se configuran rutas para poder ingresar a diferentes vistas para hacer diferentes actividades. En app, crear app-routing.module.ts, con la configuración explicada.
+
+***VIDEO IMPORTANTE DONDE CONFIGURAMOS EL ARCHIVO ROUTE***
+
+Video 102. RouterLink - 06:52
+Usamos Routerlink para no refrescar toda la información de la pagina. Por lo tanto y gracias a RouterModule, podemos agregarle un atributo a los <li> con routerlink. 
+
+Video 103 Componente Sidebar - 08:19
+Nos llevamos el sidebar a su destino final en su carpeta oficial en “Shared”. Ojo, al mover la información fallan los atributos de Router y se muestra su solución.
+
+Video 104. Componente para buscar por país - 08:35
+Se trabaja con el porPais.component y se realiza el grueso del diseño del componente.
+
+Video 105. Nota de actualización: - 00:20
+Se recomienda poner esta actualización luego de presentar la pagina para usar la API. https://restcountries.com
+
+Video 106. Servicio para buscar países - 10:14
+Creación del servicio para el país y poder consumir la API y dejarla visible en la consola.
+
+Video 107. Manejo de errores - 09:28
+Podemos tener varios status, 200 y 400 pueden ser los más clásicos. Para mejorar la experiencia se debe configurar un aviso en caso que no exista la búsqueda y eliminarla luego de que se entregue la información deseada. Puede ser desde el lado del http y del lado del consumo. La diferencia es que en el HTTP podemos modificar la respuesta.
+
+Subscribe tiene varios parámetros para ingresar, son opcionales, pero entre ellos esta la respuesta y el error.
+
+AQUI ENTRA EL MODUILO RXJS.
+
+Video 108. Tipado de la petición de RestCountries - 07:06
+Aqui utilizamos quicktype.io para generar nuestro archivo interfaces.
+
+Video 109. Llenar la tabla de países - 07:31
+Ejercicio donde rellenamos dinámicamente la tabla con la información de la API luego de hacer una búsqueda. ngIf.
+
+Video 110. Componente Input y Tabla - 10:17
+Aqui se optimiza el código por que hay componentes repetitivos en las otras alternativas de búsqueda. Los componentes repetitivos, que para este caso es la muestra de los resultados y el input de la información, la cortamos y la dejamos en sus respectivas carpetas de pais>component.
+
+Al final del video el input alega, por que las funcionalidades establecidas anteriormente no existen, algo que será arreglado en el siguiente video.
+
+Video 111. Funcionalidades del componente PaisInputComponent - 05:27
+El principio fundamental de lo que se plantea para dejar funcionando el input, es que al apretar “Enter” se envíe el “termino” buscado para que lo escuche el respectivo tag para que lo haga funcionar en la función correspondiente.
+
+Video 112. DebounceTime - en el input - 11:22
+Aqui se genera un sistema de sugerencias que se autocompleta al momento de ir escribiendo en el input. Se implementa el OnInit por primera vez y se genera una emisión de información desde el input para poder recibir las sugerencias, que se vera pronto.
+
+Video 113. Por Capital - 09:42
+Realizamos las configuraciones para trabajar con “por Capital”. Uno de los puntos a realizar es cambiar el placeholder del input dependiendo del lugar dónde nos encontremos en la App. Para esto debemos enviar él atributo placeholder a cada componente mediante un “Input()”.
+
+Video 114. Ver país de forma independiente - 07:11
+Ahora trabajamos en la vista de detalle de la información buscada para “ver País”. Se configura para consumir la información.
+
+Video 115. RxJs - SwitchMap - 04:12
+Optimizacion del código hecho en el video anterior.
+
+Video 116. Terminar la pantalla de ver país - 08:46
+Ahora que podemos consumir la API, renderizamos lo que queremos ver. HTML/CSS/Bootstrap.
+
+Video 117. Fin de la pantalla de ver país - 05:10
+Terminando el HTML.
+
+Video 118. Código fuente de la sección - 00:15
+Descarga del código de esta sección.
