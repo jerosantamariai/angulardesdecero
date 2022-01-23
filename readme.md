@@ -363,20 +363,20 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 19: FORMULARIOS REACTIVOS - MULTIPLES SELECTORES ANIDADOS
 ##### 14 CLASES - 1 H 31 MIN
-Introducción a la sección - 02:11
-Temas puntuales de la sección - 00:19
-Vista previa - 03:16
-Inicio de proyecto - Selectores - 03:02
-Estructura de directorios para esta aplicación - 08:35
-Formulario reactivo - primer selector - 09:04
-Selector de regiones - 06:03
-Segundo selector anidado - 10:39
-Limpiar país cuando el primer selector cambia - 07:40
-Tercer selector anidado - Fronteras - 10:07
-Llenar tercer selector - Fronteras - 08:40
-Mejorar la experiencia de usuario - 07:35
-Cambiar códigos de fronteras por los nombres de los países - 13:22
-Código fuente de la sección - 00:19
+278. Introducción a la sección - 02:11
+279. Temas puntuales de la sección - 00:19
+280. Vista previa - 03:16
+281. Inicio de proyecto - Selectores - 03:02
+282. Estructura de directorios para esta aplicación - 08:35
+283. Formulario reactivo - primer selector - 09:04
+284. Selector de regiones - 06:03
+285. Segundo selector anidado - 10:39
+286. Limpiar país cuando el primer selector cambia - 07:40
+287. Tercer selector anidado - Fronteras - 10:07
+288. Llenar tercer selector - Fronteras - 08:40
+289. Mejorar la experiencia de usuario - 07:35
+290. Cambiar códigos de fronteras por los nombres de los países - 13:22
+291. Código fuente de la sección - 00:19
 
 
 #### SECCIÓN 20: LIFECYCLES HOOKS
