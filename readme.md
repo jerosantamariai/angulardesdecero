@@ -381,15 +381,15 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 20: LIFECYCLES HOOKS
 ##### 9 CLASES - 42 MIN
-Introducción a la sección - 02:58
-Temas de la sección - 00:28
-Inicio de proyecto - LifeCycle - 06:09
-Implementar todos los hooks del ciclo de vida - 07:00
-Explicación sobre los ciclos de vida - 11:27
-ngOnChanges - 04:05
-ngOnDestroy - 07:50
-Más información sobre el ciclo de vida - 01:42
-Código fuente de la sección - 00:08
+292. Introducción a la sección - 02:58
+293. Temas de la sección - 00:28
+294. Inicio de proyecto - LifeCycle - 06:09
+295. Implementar todos los hooks del ciclo de vida - 07:00
+296. Explicación sobre los ciclos de vida - 11:27
+297. ngOnChanges - 04:05
+298. ngOnDestroy - 07:50
+299. Más información sobre el ciclo de vida - 01:42
+300. Código fuente de la sección - 00:08
 
 
 #### SECCIÓN 21: MAPAS EN ANGULAR
