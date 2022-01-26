@@ -394,30 +394,30 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 21: MAPAS EN ANGULAR
 ##### 24 CLASES - 2 H 19 MIN
-Introducción a la sección - 03:16
-Temas puntuales de la sección - 00:24
-Vista previa - 02:26
-Inicio de sección - MapasApp - 04:59
-Creando los componentes necesarios y rutas - 08:54
-Menú de la aplicación - 05:49
-Mostrar un mapa en pantalla completa - 09:44
-Punto central, zoom y accessToken de forma global - 05:33
-Página Zoom-Range - Diseño y tarea - 06:45
-Controlar el objeto del mapa - ZoomIn y ZoomOut - 09:54
-Controlar el nivel del Zoom - 05:32
-Crear EventListeners del mapa - 04:39
-Restringir el Zoom y uso del Range - 05:36
-Obtener las coordenadas centrales del mapa - 06:54
-Marcadores en el mapa - 06:07
-Añadir marcadores de forma dinámica - 06:28
-Mantener el arreglo de marcadores y colores - 06:37
-FlyTo - 07:05
-Guardar y leer del LocalStorage - 13:41
-Nota de actualización - 00:23
-Borrar y actualizar marcadores - 06:08
-Lista de propiedades - Diseño y estructura de la data - 05:29
-Componente MiniMapa - 06:48
-Código fuente de la sección - 00:09
+301. Introducción a la sección - 03:16
+302. Temas puntuales de la sección - 00:24
+303. Vista previa - 02:26
+304. Inicio de sección - MapasApp - 04:59
+305. Creando los componentes necesarios y rutas - 08:54
+306. Menú de la aplicación - 05:49
+307. Mostrar un mapa en pantalla completa - 09:44
+308. Punto central, zoom y accessToken de forma global - 05:33
+309. Página Zoom-Range - Diseño y tarea - 06:45
+310. Controlar el objeto del mapa - ZoomIn y ZoomOut - 09:54
+311. Controlar el nivel del Zoom - 05:32
+312. Crear EventListeners del mapa - 04:39
+313. Restringir el Zoom y uso del Range - 05:36
+314. Obtener las coordenadas centrales del mapa - 06:54
+315. Marcadores en el mapa - 06:07
+316. Añadir marcadores de forma dinámica - 06:28
+317. Mantener el arreglo de marcadores y colores - 06:37
+318. FlyTo - 07:05
+319. Guardar y leer del LocalStorage - 13:41
+320. Nota de actualización - 00:23
+321. Borrar y actualizar marcadores - 06:08
+322. Lista de propiedades - Diseño y estructura de la data - 05:29
+323. Componente MiniMapa - 06:48
+324. Código fuente de la sección - 00:09
 
 
 #### SECCIÓN 22: GRÁFICAS EN ANGULAR
