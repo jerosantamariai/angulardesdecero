@@ -422,22 +422,22 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 22: GRÁFICAS EN ANGULAR
 ##### 16 CLASES - 1 H 21 MIN
-Introducción a la sección - 01:51
-Temas puntuales de la sección - 00:14
-Demostración del objetivo final de la sección - 01:12
-Inicio de proyecto - GraficasApp - 03:30
-Estructura del proyecto - 05:31
-Rutas y LazyLoad - 06:35
-Menú de la aplicación - 05:57
-Gráfica de barra - 07:42
-Personalizando la gráfica - 10:12
-Componente personalizado para mostrar gráficos - 05:29
-Añadir flexibilidad a nuestro componente personalizado - 08:03
-Gráfica de Dona - 05:09
-Gráfica de Dona mediante petición Http - 06:03
-Mostrar la información en la gráfica - 07:00
-Cambiar la información mediante RXJS - 06:25
-Código fuente de la sección - 00:14
+325. Introducción a la sección - 01:51
+326. Temas puntuales de la sección - 00:14
+327. Demostración del objetivo final de la sección - 01:12
+328. Inicio de proyecto - GraficasApp - 03:30
+329. Estructura del proyecto - 05:31
+330. Rutas y LazyLoad - 06:35
+331. Menú de la aplicación - 05:57
+332. Gráfica de barra - 07:42
+333. Personalizando la gráfica - 10:12
+334. Componente personalizado para mostrar gráficos - 05:29
+335. Añadir flexibilidad a nuestro componente personalizado - 08:03
+336. Gráfica de Dona - 05:09
+337. Gráfica de Dona mediante petición Http - 06:03
+338. Mostrar la información en la gráfica - 07:00
+339. Cambiar la información mediante RXJS - 06:25
+340. Código fuente de la sección - 00:14
 
 
 #### SECCIÓN 23: DIRECTIVAS PERSONALIZADAS DE ANGULAR
