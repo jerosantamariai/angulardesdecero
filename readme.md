@@ -442,20 +442,20 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 23: DIRECTIVAS PERSONALIZADAS DE ANGULAR
 ##### 14 CLASES - 1 H 24 MIN
-Introducción a la sección - 02:51
-Temas puntuales de la sección - 00:17
-Inicio de proyecto - DirectivasApp - 03:57
-Estructura de la aplicación - 09:07
-Formulario reactivo tradicional - 08:02
-Directiva personalizada - ErrorMsg - 07:05
-Directive Input - Cambiar el color del host - 07:58
-Cambiar el mensaje de la etiqueta - 05:10
-Reaccionar a los cambios en tiempo real - 09:50
-Input setters - 10:50
-Resolución del problema - 04:41
-Mostrar y Ocultar si tiene error el campo - 05:43
-Directivas estructurales personalizadas - 08:12
-Código fuente de la sección - 00:12
+341. Introducción a la sección - 02:51
+342. Temas puntuales de la sección - 00:17
+343. Inicio de proyecto - DirectivasApp - 03:57
+434. Estructura de la aplicación - 09:07
+345. Formulario reactivo tradicional - 08:02
+346. Directiva personalizada - ErrorMsg - 07:05
+347. Directive Input - Cambiar el color del host - 07:58
+348. Cambiar el mensaje de la etiqueta - 05:10
+349. Reaccionar a los cambios en tiempo real - 09:50
+350. Input setters - 10:50
+351. Resolución del problema - 04:41
+352. Mostrar y Ocultar si tiene error el campo - 05:43
+353. Directivas estructurales personalizadas - 08:12
+354. Código fuente de la sección - 00:12
 
 #### SECCIÓN 24: AUTH BACKEND - MEAN
 ##### 25 CLASES - 2 H 36 MIN
