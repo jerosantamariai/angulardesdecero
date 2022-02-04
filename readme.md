@@ -459,31 +459,31 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 24: AUTH BACKEND - MEAN
 ##### 25 CLASES - 2 H 36 MIN
-Introducción a la sección - 02:07
-Temas puntuales de la sección - 00:18
-Vista previa - 03:37
-Inicio de proyecto - Auth MEAN - 03:57
-Npm - Nodemon - 05:16
-Instalaciones necesarias para el backend - 04:46
-Configurar servidor de Express - 08:26
-Crear las rutas de nuestra aplicación - 11:57
-Separar el controlador de la ruta - 06:46
-Configurar CORS y body de las peticiones - 06:30
-Variables de entorno de Node - 04:51
-Servir una página HTTP desde Express - 03:51
-Validar campos obligatorios - 09:45
-Tarea: Validar campos - 04:20
-Custom Middleware - ValidarCampos - 07:08
-Configurar base de datos - MongoDB - 09:07
-Conectar MongoDB Atlas - Compass y Node - 06:16
-Crear modelo de base de datos - 03:38
-Crear usuario en base de datos - 10:47
-Hash de la contraseña - 04:47
-Generar JsonWebToken - 13:00
-Login de usuario - 08:00
-Renovar y validar el JWT - 12:46
-Solución a la tarea - Generar JWT - 03:54
-Código fuente de la sección - 00:08
+356. Introducción a la sección - 02:07
+357. Temas puntuales de la sección - 00:18
+358. Vista previa - 03:37
+359. Inicio de proyecto - Auth MEAN - 03:57
+360. Npm - Nodemon - 05:16
+361. Instalaciones necesarias para el backend - 04:46
+362. Configurar servidor de Express - 08:26
+363. Crear las rutas de nuestra aplicación - 11:57
+364. Separar el controlador de la ruta - 06:46
+365. Configurar CORS y body de las peticiones - 06:30
+366. Variables de entorno de Node - 04:51
+367. Servir una página HTTP desde Express - 03:51
+368. Validar campos obligatorios - 09:45
+369. Tarea: Validar campos - 04:20
+370. Custom Middleware - ValidarCampos - 07:08
+371. Configurar base de datos - MongoDB - 09:07
+372. Conectar MongoDB Atlas - Compass y Node - 06:16
+373. Crear modelo de base de datos - 03:38
+374. Crear usuario en base de datos - 10:47
+375. Hash de la contraseña - 04:47
+376. Generar JsonWebToken - 13:00
+377. Login de usuario - 08:00
+378. Renovar y validar el JWT - 12:46
+379. Solución a la tarea - Generar JWT - 03:54
+380. Código fuente de la sección - 00:08
 
 
 #### SECCIÓN 25: AUTHAPP - MEAN
