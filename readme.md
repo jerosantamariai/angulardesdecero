@@ -488,25 +488,25 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 25: AUTHAPP - MEAN
 ##### 19 CLASES - 1 H 56 MIN
-Introducción a la sección - 01:29
-Temas puntuales de la sección - 00:11
-Demostración de la sección - 02:08
-Inicio de proyecto - Auth MEAN - 03:47
-Estructura del proyecto - AuthApp - 08:07
-Rutas y LazyLoad - 07:03
-Diseño de la pantalla de Registro y Login - 13:22
-Pantalla protegida - 08:29
-Login de usuario desde Angular - 09:53
-Almacenar la información del usuario - 11:59
-Mensajes de error visuales - 05:09
-Mantener el usuario activo tras recargar el navegador web - 08:20
-ValidarToken - Guard - 13:05
-Logout - 02:24
-Tarea: Registro de usuarios - 02:55
-Resolución de la tarea - 06:27
-Tarea: Mantener el email del usuario - 02:59
-Resolución de la tarea - Email - 08:30
-Código fuente de la sección - 00:09
+381. Introducción a la sección - 01:29
+382. Temas puntuales de la sección - 00:11
+383. Demostración de la sección - 02:08
+384. Inicio de proyecto - Auth MEAN - 03:47
+385. Estructura del proyecto - AuthApp - 08:07
+386. Rutas y LazyLoad - 07:03
+387. Diseño de la pantalla de Registro y Login - 13:22
+388. Pantalla protegida - 08:29
+389. Login de usuario desde Angular - 09:53
+390. Almacenar la información del usuario - 11:59
+391. Mensajes de error visuales - 05:09
+392. Mantener el usuario activo tras recargar el navegador web - 08:20
+393. ValidarToken - Guard - 13:05
+394. Logout - 02:24
+395. Tarea: Registro de usuarios - 02:55
+396. Resolución de la tarea - 06:27
+397. Tarea: Mantener el email del usuario - 02:59
+398. Resolución de la tarea - Email - 08:30
+399. Código fuente de la sección - 00:09
 
 
 #### SECCIÓN 26: DESPLEGAR BACKEND Y FRONTEND A PRODUCCIÓN
