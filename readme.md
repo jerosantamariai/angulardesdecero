@@ -511,13 +511,13 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 26: DESPLEGAR BACKEND Y FRONTEND A PRODUCCIÓN
 ##### 7 CLASES - 42 MIN
-Introducción a la sección - 02:32
-Temas puntuales de la sección - 00:11
-Continuación de proyecto - AuthApp - 03:06
-Desplegar aplicación de Angular en Node - 12:36
-Desplegar aplicación de Node a Heroku - 11:15
-Configurar ambiente de producción - 07:31
-Revisar logs de Heroku - 04:32
+400. Introducción a la sección - 02:32
+401. Temas puntuales de la sección - 00:11
+402. Continuación de proyecto - AuthApp - 03:06
+403. Desplegar aplicación de Angular en Node - 12:36
+404. Desplegar aplicación de Node a Heroku - 11:15
+405. Configurar ambiente de producción - 07:31
+406. Revisar logs de Heroku - 04:32
 
 
 #### SECCIÓN 27: BONUS: MAPAS - MARCADORES Y DIRECCIONES CON MAPBOX
