@@ -549,9 +549,9 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 28: FIN DEL CURSO
 ##### 3 CLASES - 5 MIN
-Documentos complementarios sobre Angular - 00:16
-Más sobre mis cursos - 00:25
-Despedida - 04:43
+430. Documentos complementarios sobre Angular - 00:16
+431. Más sobre mis cursos - 00:25
+432. Despedida - 04:43
 
 
 # Agrademientos a Fernando Herrera
