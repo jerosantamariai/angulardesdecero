@@ -522,29 +522,29 @@ El curso cuenta con 28 secciones, 44horas de video, 46 articulos, 27 recursos de
 
 #### SECCIÓN 27: BONUS: MAPAS - MARCADORES Y DIRECCIONES CON MAPBOX
 ##### 23 CLASES - 2 H 36 MIN
-Temas puntuales de la sección - 00:13
-Demostración del objetivo final - 01:34
-Inicio de proyecto - MapasApp - 03:31
-Configuraciones iniciales del proyecto - 04:29
-Obtener la geolocalización del usuario - 11:28
-Mostrar un mensaje de carga - 06:42
-Mostrar un mapa de Mapbox - 11:59
-Marcadores y Popups - 04:02
-Boton flotante y Logo de Angular - 04:49
-Servicio para controlar el mapa - 07:45
-Diseño de componentes de búsqueda y detalles - 07:27
-Debounce Manual - 05:49
-Realizar petición HTTP para obtener lugares - 11:35
-Custom Http Client - PlacesApiClient - 13:47
-Mostrar los resultados de la búsqueda - 08:29
-Agregar marcadores en los lugares encontrados - 07:26
-Ajustar el mapa para mostrar todos los marcadores encontrados - 08:44
-Obtener la ruta entre dos puntos - 06:52
-Obtener la distancia y duración del recorrido - 11:54
-Dibujar la polyline - 06:28
-Ocultar el menu de lugares - 03:28
-Desplegar la aplicación de mapas - 07:16
-Código fuente de la sección - 00:13
+407. Temas puntuales de la sección - 00:13
+408. Demostración del objetivo final - 01:34
+409. Inicio de proyecto - MapasApp - 03:31
+410. Configuraciones iniciales del proyecto - 04:29
+411. Obtener la geolocalización del usuario - 11:28
+412. Mostrar un mensaje de carga - 06:42
+413. Mostrar un mapa de Mapbox - 11:59
+414. Marcadores y Popups - 04:02
+415. Boton flotante y Logo de Angular - 04:49
+416. Servicio para controlar el mapa - 07:45
+417. Diseño de componentes de búsqueda y detalles - 07:27
+418. Debounce Manual - 05:49
+419. Realizar petición HTTP para obtener lugares - 11:35
+420. Custom Http Client - PlacesApiClient - 13:47
+421. Mostrar los resultados de la búsqueda - 08:29
+422. Agregar marcadores en los lugares encontrados - 07:26
+423. Ajustar el mapa para mostrar todos los marcadores encontrados - 08:44
+424. Obtener la ruta entre dos puntos - 06:52
+425. Obtener la distancia y duración del recorrido - 11:54
+426. Dibujar la polyline - 06:28
+427. Ocultar el menu de lugares - 03:28
+428. Desplegar la aplicación de mapas - 07:16
+429. Código fuente de la sección - 00:13
 
 
 #### SECCIÓN 28: FIN DEL CURSO
