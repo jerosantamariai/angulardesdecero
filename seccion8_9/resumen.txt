@@ -93,3 +93,42 @@ Terminando el HTML.
 
 Video 118. Código fuente de la sección - 00:15
 Descarga del código de esta sección.
+
+
+
+
+
+SECCIÓN 9: CONTINUACIÓN APLICACIÓN DE PAÍSES - SUGERENCIAS, DEBOUNCE, MÁS
+11 CLASES - 50 MIN
+Video 119. Introducción a la sección - 01:29
+Vamos a continuar realizando la aplicación de los países completando lo que nos falta, sobretodo realizando un apoyo a autocompletar la búsqueda al titear en el input.
+
+Video 120. Temas puntuales de la sección - 00:15
+Imagen con la información escrita de lo que se dijo en el video anterior.
+
+Video 121. Continuación del proyecto - PaísesApp - 01:56
+Dejar servido la app y todo listo para continuar codeando.
+
+Video 122. ngClass, class y [class.] - 10:01
+Se observan diferentes formas/alternativas para hacer que las clases de un tag cambien de forma dinámica al realizar una acción.
+
+Video 123. Clases de CSS condicionales - 06:36
+Otra alternativa para dinamizar las acciones. Si pongo [class] puedo hacer una función de JS. Hay una nota de actualización por el cambio en la API. Yo sigo trabajando con los continentes por que ya tengo disponible la versión 3, cuando la actualización solo tiene disponible hasta la versión 2.
+
+Video 124. Mostrar países por región - 05:02
+Obtener la API y consumirla. Se trabaja en el service para capturar la información para luego trabajar en el TS de “porRegion” para poder observar la información en pantalla.
+
+Video 125. Nota de actualización - 00:13
+Tal como se dijo antes, la API del principio no funciona y se da la información de una nueva para poder trabajar.
+
+Video 126. Optimizar las peticiones HTTP - 09:34
+Cuando se hace una petición, se puede especificar aun más la información que se desea obtener de forma que se ocupe una menor descarga de información para hacer mas eficiente y rápida una aplicación. Depende de cada API.
+
+Video 127. Animaciones de CSS - 04:07
+Se utiliza animate.css para hacer efectos.
+
+Video 128. Mostrar sugerencias al escribir - autocomplete - 10:36
+Ser agregan sugerencias al ir incorporando letras al input para facilitar una búsqueda.
+
+Video 129. Código fuente de la sección - 00:16
+Final de la sección y deja links de los códigos.
