@@ -14,13 +14,13 @@
 </div>
 
 <div class="cardcomp">
-    <p-card>
+    <p-card *ngFor="let item of dataList">
         <ng-template pTemplate="header">
-            Header content here
+            {{ item.name | uppercase }}{{ item.lastname | uppercase }}, Age: {{ item.age }}
         </ng-template>
-        Body Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam soluta provident, ea, aperiam deserunt autem distinctio nostrum repellendus sit velit perferendis quasi aut iste similique quis perspiciatis repellat vero obcaecati!
+        {{ item.phrase }}
         <ng-template pTemplate="footer">
-            Footer content here
+            {{ item.country }}
         </ng-template>
     </p-card>
 </div>
