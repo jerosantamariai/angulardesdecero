@@ -1,8 +1,26 @@
-<h1>
-    {{ 'Hola Mundo' | lowercase }}
-</h1>
+<div class="text-layout">
+    <h1>
+        {{ 'Hola Jero' | lowercase }}
+    </h1>
+</div>
 
+<div>
+    <button (click)="mostrarNombre()">
+        Cambiar Nombre
+    </button>
 
-<button (click)="mostrarNombre()">
-    Cambiar Nombre
-</button>
+    <button pButton type="button" label="Click1" icon="pi pi-apple" iconPos="right" class="p-button-help"></button>
+    <p-button label="Click2" icon="pi pi-spin pi-spinner" iconPos="right"></p-button>
+</div>
+
+<div class="cardcomp">
+    <p-card>
+        <ng-template pTemplate="header">
+            Header content here
+        </ng-template>
+        Body Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam soluta provident, ea, aperiam deserunt autem distinctio nostrum repellendus sit velit perferendis quasi aut iste similique quis perspiciatis repellat vero obcaecati!
+        <ng-template pTemplate="footer">
+            Footer content here
+        </ng-template>
+    </p-card>
+</div>
