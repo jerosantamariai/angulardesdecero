@@ -1,1 +1,30 @@
-<p>numeros works!</p>
+<div class="text-layout my-5">
+    <h1>Pipes Básicos para Numbers</h1>
+    <p>Pipes incluidos en Ng - Incluidos en CommonModule</p>
+
+    <div class="grid">
+        <div class="col-4">
+            <p-card header="Números">
+                {{ ventasNetas | number:'1.6' }}
+            </p-card>
+        </div>
+        <div class="col-4">
+            <p-card header="Currency">
+                {{ ventasNetas | currency:'CLP ' }}
+            </p-card>
+        </div>
+        <div class="col-4">
+            <p-card header="Porcentajes">
+                {{ porcentaje | percent:'1.2' }}
+            </p-card>
+        </div>
+    </div>
+
+    <p>
+        Tengo información en .ts que puedo renderizar en el .html con el estilo de los pipes. Puede agregar info con los
+        [] en el atributo o con doble llaves en el contenido. Documentación para <a
+            href="https://angular.io/api/common/DecimalPipe" target="_blank" rel="noopener noreferrer">Numbers</a>, <a
+            href="https://angular.io/api/common/CurrencyPipe" target="_blank" rel="noopener noreferrer">Currency</a> y
+        <a href="https://angular.io/api/common/PercentPipe" target="_blank" rel="noopener noreferrer">Porcentaje</a>
+    </p>
+</div>
