@@ -1,1 +1,34 @@
-<p>no-comunes works!</p>
+<div class="text-layout my-5">
+    <h1>Pipes NO tan comunes</h1>
+    <p>Pipes incluidos en Ng - Incluidos en CommonModule</p>
+
+    <div class="grid">
+        <div class="col-12 md:col-6">
+            <p-fieldset legend="i18nSelect Pipe" [toggleable]="true">
+                <p>
+                    Saludos {{ nombre }}, fuiste {{ genero | i18nSelect:invitacionMapa}} a nuestro evento.
+                </p>
+                <p-button (onClick)="cambiarNombre()">Cambiar Nombre</p-button>
+            </p-fieldset>
+        </div>
+        <div class="col-12 md:col-6">
+            <p-fieldset legend="i18nPlural Pipe" [toggleable]="true">
+                <p>
+                    {{ clientes.length | i18nPlural:clientesMapa}}
+                </p>
+                <p-button (onClick)="borrarCliente()">Borrar Cliente</p-button>
+            </p-fieldset>
+        </div>
+    </div>
+
+    <p>
+        Tengo información en .ts que puedo renderizar en el .html con el estilo de los pipes. Puede agregar info con los
+        [] en el atributo o con doble llaves en el contenido. Documentación para <a
+            href="https://angular.io/api/common/I18nSelectPipe">i18nSelect</a>, <a
+            href="https://angular.io/api/common/I18nPluralPipe">I18nPluralPipe</a>, <a
+            href="https://angular.io/api/common/SlicePipe">SlicePipe</a>, <a
+            href="https://angular.io/api/common/KeyValuePipe">KeyValuePipe</a> y <a
+            href="https://angular.io/api/common/AsyncPipe">AsyncPipe</a>
+
+    </p>
+</div>

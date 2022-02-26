@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Modulos Personales
 import { AppRouteModule } from './routes/app-route/app-route.module';
@@ -21,10 +22,11 @@ registerLocaleData( localeCHI );
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRouteModule,
     PrimeNgModule,
     SharedModule,
-    VentasModule
+    VentasModule,
   ],
   providers: [
     {
