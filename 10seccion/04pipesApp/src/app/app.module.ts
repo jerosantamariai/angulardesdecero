@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-// Modulo de PrimeNg
+// Modulos Personales
+import { SharedModule } from './shared/shared.module';
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
 
 
@@ -12,9 +13,11 @@ import { PrimeNgModule } from './prime-ng/prime-ng.module';
   declarations: [
     AppComponent
   ],
+  
   imports: [
     BrowserModule,
-    PrimeNgModule
+    PrimeNgModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

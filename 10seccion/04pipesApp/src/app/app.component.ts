@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import data from './_files/data.json';
 
 @Component({
@@ -6,8 +7,10 @@ import data from './_files/data.json';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'pipesApp';
+  
   nombre: string = 'Fernando';
   public dataList: {
     name: string,
@@ -20,7 +23,4 @@ export class AppComponent {
   mostrarNombre() {
     console.log(this.nombre);
   }
-
-  
-
 }
