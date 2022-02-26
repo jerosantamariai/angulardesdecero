@@ -1,1 +1,22 @@
-<p>basicos works!</p>
+<div class="text-layout">
+    <h1>Pipes Básicos</h1>
+    <p>Pipes incluidos en Ng - Incluidos en CommonModule</p>
+
+    <div class="grid">
+        <div class="col-4">
+            <p-card header="Uppercase" [subheader]="nombreLower | uppercase">
+                {{ nombreLower | uppercase }}
+            </p-card>
+        </div>
+        <div class="col-4">
+            <p-card header="Lowercase" [subheader]="nombreUpper | lowercase">
+                {{ nombreUpper | lowercase }}
+            </p-card>
+        </div>
+        <div class="col-4">
+            <p-card header="Titlecase" [subheader]="nombreCompleto | titlecase">
+                {{ nombreCompleto | titlecase }}
+            </p-card>
+        </div>
+    </div>
+</div>
