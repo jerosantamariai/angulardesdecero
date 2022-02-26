@@ -37,29 +37,40 @@
                     <li>date:'long'</li>
                     <li>date:'d of MMMM YYYY, G'</li>
                 </ul>
+                <hr>
+                <ul>
+                    <li>date:'long':'GMT-3'</li>
+                    <li>date:'long':'GMT-6'</li>
+                </ul>
             </p-card>
         </div>
         <div class="col-6">
             <p-card header="Completa">
                 <ul>
-                <li>
-                    {{ fecha | date:'short' }}
-                </li>
-                
-                <li>
-                    {{ fecha | date }}
-                </li>
-                <li>
-                    {{ fecha | date:'long' }}
-                </li>
-                <li>
-                    {{ fecha | date:'d of MMMM YYYY, G' }}
-                </li>
+                    <li>
+                        {{ fecha | date:'short' }}
+                    </li>
+
+                    <li>
+                        {{ fecha | date }}
+                    </li>
+                    <li>
+                        {{ fecha | date:'long' }}
+                    </li>
+                    <li>
+                        {{ fecha | date:'d of MMMM YYYY, G' }}
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>{{ fecha | date:'long':'GMT-3' }}</li>
+                    <li>{{ fecha | date:'long':'GMT-6' }}</li>
                 </ul>
             </p-card>
         </div>
     </div>
 
-    <p>Tengo una variable que indica el dia de hoy en .ts que se renderiza en el .html con el estilo de los pipes. Más formatos en
+    <p>Tengo una variable que indica el dia de hoy en .ts que se renderiza en el .html con el estilo de los pipes. Más
+        formatos en
         documentacion de <a href="https://angular.io/api/common/DatePipe">Angular</a> para personalizar la fecha.</p>
 </div>
