@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 // Modulos Personales
 import { SharedModule } from './shared/shared.module';
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
+import { AppRouteModule } from './routes/app-route/app-route.module';
 
 
 
@@ -16,6 +17,7 @@ import { PrimeNgModule } from './prime-ng/prime-ng.module';
   
   imports: [
     BrowserModule,
+    AppRouteModule,
     PrimeNgModule,
     SharedModule,
   ],
