@@ -1,5 +1,5 @@
-<div class="text-layout">
-    <h1>Pipes Básicos</h1>
+<div class="text-layout my-5">
+    <h1>Pipes Básicos para Strings</h1>
     <p>Pipes incluidos en Ng - Incluidos en CommonModule</p>
 
     <div class="grid">
@@ -19,4 +19,47 @@
             </p-card>
         </div>
     </div>
+
+    <p>Tengo información en .ts que puedo renderizar en el .html con el estilo de los pipes. puede ser con los [] en el
+        atributo o con doble llaves</p>
+</div>
+
+<div class="text-layout top-5">
+    <h1>Pipes Básicos para fechas</h1>
+    <p>Pipes incluidos en Ng - Incluidos en CommonModule</p>
+
+    <div class="grid">
+        <div class="col-6">
+            <p-card header="Normal">
+                <ul>
+                    <li>date:'short'</li>
+                    <li>date:'medium' || date </li>
+                    <li>date:'long'</li>
+                    <li>date:'d of MMMM YYYY, G'</li>
+                </ul>
+            </p-card>
+        </div>
+        <div class="col-6">
+            <p-card header="Completa">
+                <ul>
+                <li>
+                    {{ fecha | date:'short' }}
+                </li>
+                
+                <li>
+                    {{ fecha | date }}
+                </li>
+                <li>
+                    {{ fecha | date:'long' }}
+                </li>
+                <li>
+                    {{ fecha | date:'d of MMMM YYYY, G' }}
+                </li>
+                </ul>
+            </p-card>
+        </div>
+    </div>
+
+    <p>Tengo una variable que indica el dia de hoy en .ts que se renderiza en el .html con el estilo de los pipes. Más formatos en
+        documentacion de <a href="https://angular.io/api/common/DatePipe">Angular</a> para personalizar la fecha.</p>
 </div>
