@@ -1,0 +1,91 @@
+SECCIÓN 10: PIPES DE ANGULAR
+28 CLASES - 3H 20 MIN
+Video 130. Introducción a la sección - 03:59
+En esta sección vamos a aprender a transformar la información en HTML con formato. Este formato en NG se llama PIPE. { termino | Pipe } y vienen muchos preconfigurados en el ng/common, aun que podemos hacer los nuestros personalizados. Veremos PrimeNg.
+
+Video 131. Temas puntuales de la sección - 00:35
+Texto con lo que se trabajará.
+
+Video 132. Demostración del objetivo de la sección - 02:42
+Como se vera la App.
+
+Video 133. Inico del proyecto - PipesApp - 06:28
+Comenzando la instalación. 
+
+Material Adicional:
+- https://angular.io/api?query=pipe (Documentation oficial de Pipes de Ng)
+- https://www.primefaces.org/primeng/ (PrimeNg)
+
+Video 134. Introducción a los Pipes de Angular - 07:49
+Los pibes ayudan a dar formato a la información que estamos mostrando en pantalla. No es valida para la la impresión en consola.
+
+Video 135. Instalar PrimeNg - 08:56
+Primeros pasos con PrimeNg
+
+Video 136. Prime Button y estilo global - 10:04
+Primeras configuraciones de estilo. Las importaciones se hacen en el module.
+
+Video 137. Cards y botones con íconos - 09:15
+Utilizando componentes de PrimeNg.
+
+Video 138. PrimeNg module - 05:10
+Cómo hacer que las importaciones de componentes puedan ser reutilizadas y queden de forma global en la app. Se realiza un nuevo modulo, se libera lineas de código en app.module y de esa forma queda ordenado.
+
+Video 139. PrimeNg - MenuBar - 11:32
+Importamos el NavBar de PrimeNg.
+
+Video 140. Rutas de nuestra aplicación - 09:23
+Creamos rutas y las dejamos listas para poder linkearlas en el próximo video al menú hecho en el video anterior.
+
+Video 141. Cambiar las rutas utilizando el MenuBar - 06:50
+Incorporar las rutas en el “navbar”
+
+Video 142. PrimeFlex - 10:12
+El equivalente a Bootstrap en PrimeNg
+
+Video 143. UpperCase, LowerCase y TitleCase Pipes - 05:40
+Tengo información en .ts que puedo renderizar en el .html con el estilo de los pipes. puede ser con los [] en el atributo o con doble llaves
+
+Video 144. Date Pipe - 10:37
+Realizamos modificaciones a partir de una fecha dada de “hoy”. Podemos customizarla.
+
+Video 145. Cambiar el idioma por defecto - 06:54
+Para poder custodiar la región se debe obtener el paquete en “common” que tiene el mismo Ng. Importamos la información en app.module y queda de forma global en la app.
+
+Video 146. Timezone y otros idiomas - 07:35
+Podemos poner el Timezone que queramos y podemos utilizar otros argumentos para configurar el Pipe. El inglés es por defecto, pero para utilizar otros idiomas o locales hay que simplemente importarlos. Hay que tener atención en que se puede utilizar un locale en particular de un país o de un lenguaje en general.
+
+{{ value_expression | date [ : format [ : timezone [ : locale ] ] ] }}
+
+Video 147. DecimalPipe - 09:00
+Como modificar los números, sobretodo por los números en miles y decimales.
+
+Video 148. CurrencyPipe y PercentPipe - 05:55
+Similar al anterior y trabajando en el mismo page. Información adicional en la App.
+
+Video 149. PrimeNg - Fieldset - 10:54
+Se añade la estructura del FieldSet para continuar trabajando en el próximo video.
+
+Video 150. I18nSelectPipe - 05:46
+Esto sirve para hacer dinámico el cambio de palabras dependiendo de ciertas condiciones como por ejemplo el genero. Se utiliza cuando hay 2 alternativas
+
+Video 151. I18nPluralPipe - 07:06
+Lo mismo que el anterior, pero cuando hay mas de 2 alternativas.
+
+Video 152. Tarea sobre i18nPipes y Primeng - 07:03
+Ejercicio para hacer dinámica la app cuando tenemos cambios por el click de un botón.
+
+Video 153. SlicePipe - 07:04
+Mostrar información que deseo.
+
+Video 154. KeyValuePipe - 06:40
+Mostrar la representación de un objeto y formatearlo
+
+Video 155. JsonPipe - 04:03
+Ver el Json en pantalla.
+
+Video 156. AsyncPipe - 12:01
+Como manejar las promesas. INTERESANTE. Usamos el intervalo de RxJS.
+
+Video 157. Código fuente de la sección - 00:18
+Link para descargar lo hecho en esta sección.
