@@ -1,0 +1,43 @@
+<div class="text-layout my-5">
+    <h1>Pipes Hechos por {{ 'Nosotros' | mayusculas: enMayusculas }}</h1>
+    <p>Pipes incluidos en Ng - Incluidos en CommonModule</p>
+
+    <p-button (onClick)="change()">Cambiar</p-button>
+
+    <hr class="mt-5 mb-5">
+
+    <p-toolbar>
+        <div class="p-toolbar-group-left">
+
+        </div>
+
+        <div class="p-toolbar-group-right">
+            <button pButton icon="pi pi-sort" class="p-button-danger mr-1" label="Por nombre" (click)="cambiarOrden('nombre')"></button>
+            <button pButton icon="pi pi-sort" class="p-button-warning mr-1" label="Por volar" (click)="cambiarOrden('vuela')"></button>
+            <button pButton icon="pi pi-sort" class="p-button-success mr-1" label="Por color" (click)="cambiarOrden('color')"></button>
+        </div>
+    </p-toolbar>
+
+    <div class="p-grid mt-1">
+        <div class="p-col">
+            <p-table [value]="heroes | ordenar:orderName">
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Vuela</th>
+                        <th>Color</th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-heroe>
+                    <tr>
+                        <td>{{heroe.nombre}}</td>
+                        <td>{{heroe.vuela | vuela | titlecase}}</td>
+                        <td>{{heroe.color}}</td>
+                    </tr>
+                </ng-template>
+            </p-table>
+        </div>
+    </div>
+    
+
+</div>

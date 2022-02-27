@@ -45,8 +45,9 @@ export class MenuComponent implements OnInit {
         icon: 'pi pi-user-edit',
         items: [
           {
-            label: 'algo',
+            label: 'Ordenar',
             icon: 'pi pi-inbox',
+            routerLink: 'ordenar'
           }
         ]
       }
