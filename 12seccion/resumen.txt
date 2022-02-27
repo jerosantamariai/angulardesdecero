@@ -1,0 +1,36 @@
+SECCIÓN 12: HEROESAPP - RUTAS HIJAS Y LAZYLOAD
+11 CLASES - 55 MIN
+Video 170. Introducción a la sección - 02:26
+Video resumen explicado de lo que se hará en el la sección.
+
+Video 171. Temas puntuales de la sección - 00:23
+Script de lo que se va a realizar en la sección.
+
+Video 172. Demostración del objetivo final de la sección - 01:39
+Visión general del proyecto que se hará. Nada de estilos.
+
+Video 173. Inicio de proyecto - HeroesApp - 05:46
+Bash: ng new 05heroesApp
+
+Se utilizará e instalará Angular Material en esta sección https://material.angular.io/
+
+Video 174. Módulos y componentes iniciales - 08:43
+Creacon de modelos y componentes varios para tener lista la arquitectura interna de la aplicación.
+
+Video 175. Rutas principales - Root - 06:28
+Creamos el archivo routing y colocamos la ruta principal para la pagina de error 404. No cargamos ninguna otra ruta.
+
+Video 176. Rutas hijas y LazyLoad - AuthRoutes - 11:49
+LazyLoads significa “Carga on demand”. IMPORTANTE: Se realizaron las rutas hijas, procedimiento paso a paso, en un archivo en la aplicación para el Auth.
+
+Video 177. Tarea - Rutas Hijas de Héroes - 05:26
+Agregar rutas hijas para los “Héroes” utilizando el mismo método visto en el video anterior.
+
+Video 178. Resolución de la tarea - Rujas Hijas de Héroes - 07:36
+Solución de la tarea.
+
+Video 179. Mostrar Rutas Hijas - Segundo RouterOutlet - 04:29
+Agregar componente y un nuevo “router-outlet” para que se vea la información.
+
+Video 180. Código fuente de la sección - 00:15
+Descargar los códigos hechos en la sección.
