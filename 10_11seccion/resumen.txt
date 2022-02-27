@@ -89,3 +89,47 @@ Como manejar las promesas. INTERESANTE. Usamos el intervalo de RxJS.
 
 Video 157. Código fuente de la sección - 00:18
 Link para descargar lo hecho en esta sección.
+
+
+
+SECCIÓN 11: PIPES PERSONALIZADOS
+12 CLASES - 1 H 3 MIN
+Video 158. Introducción a la sección - 01:15
+Video explicativo de lo que se hará en la sección
+
+Video 159. Temas puntuales de la sección - 00:09
+Lo mismo que antes pero escrito.
+
+Video 160. Continuación de proyecto - PipesApp - 03:11
+Puesta a punto para comenzar a trabajar con lo hecho en la sección 10.
+
+Video 161. Pipe personalizado - mayusculasPipe - 07:50
+Comienzo de creación de un Pipe personalizado. Se realiza un archivo nombre.Pipe.ts
+
+Video 162. Valor y argumentos a los pipes personalizados - 09:56
+Se termina de implementar el pipe personalizado. Se realizando una tarea.
+
+Video 163. PrimeTable y PrimeToolbar - 08:26
+Se hacen las instalaciones e importaciones correspondientes para poder utilizar la table y el toolbar. 
+
+NOTA: Problemas con PrimeTable y no detecta la forma de la tabla.
+
+Video 164. Llenar un PrimeTable con data - 07:09
+Completamos la información de la tabla, creamos el objeto con varios individuos y sus características y lo dejamos renderizado
+
+Video 165. Tarea pipe personalizado - VuelaPipe - 04:55
+Hacemos el Pipe de forma manual. PODEMOS HACER CONCATENACION DE PIPES.
+
+Video 166. Ordenar héroes por nombre - OrdenarPipe - 07:46
+Realizamos pipe personalizado para poder ordenar la información del arreglo. Utilizamos “.sort()”
+
+Video 167. Parametrizar nuestro pipe personalizado - 07:20
+Utilizamos un Switch para condicionar con pipes el orden utilizando los botones.
+
+Video 168. Primeng - Sortable Table - 04:59
+PrimeNg tiene una tabla sortable rápidamente configurada.
+
+NOTA: PROBLEMAS CON USAR TABLA.
+
+Video 169. Código fuente de la sección - 00:16
+Descargar el código de lo que se hizo en la sección.
