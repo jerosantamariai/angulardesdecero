@@ -15,10 +15,10 @@
     </mat-card-content>
 
     <mat-card-actions>
-        <button mat-raised-button color="accent">
+        <button mat-raised-button color="accent" [routerLink]="[ '/heroes', heroe.id]">
             Leer más...
         </button>
-        <button mat-raised-button color="primary">
+        <button mat-raised-button color="primary" [routerLink]="[ '/heroes/editar', heroe.id]">
             Editar
         </button>
     </mat-card-actions>
