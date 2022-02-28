@@ -1,0 +1,122 @@
+SECCIÓN 12: HEROESAPP - RUTAS HIJAS Y LAZYLOAD
+11 CLASES - 55 MIN
+Video 170. Introducción a la sección - 02:26
+Video resumen explicado de lo que se hará en el la sección.
+
+Video 171. Temas puntuales de la sección - 00:23
+Script de lo que se va a realizar en la sección.
+
+Video 172. Demostración del objetivo final de la sección - 01:39
+Visión general del proyecto que se hará. Nada de estilos.
+
+Video 173. Inicio de proyecto - HeroesApp - 05:46
+Bash: ng new 05heroesApp
+
+Se utilizará e instalará Angular Material en esta sección https://material.angular.io/
+
+Video 174. Módulos y componentes iniciales - 08:43
+Creacon de modelos y componentes varios para tener lista la arquitectura interna de la aplicación.
+
+Video 175. Rutas principales - Root - 06:28
+Creamos el archivo routing y colocamos la ruta principal para la pagina de error 404. No cargamos ninguna otra ruta.
+
+Video 176. Rutas hijas y LazyLoad - AuthRoutes - 11:49
+LazyLoads significa “Carga on demand”. IMPORTANTE: Se realizaron las rutas hijas, procedimiento paso a paso, en un archivo en la aplicación para el Auth.
+
+Video 177. Tarea - Rutas Hijas de Héroes - 05:26
+Agregar rutas hijas para los “Héroes” utilizando el mismo método visto en el video anterior.
+
+Video 178. Resolución de la tarea - Rujas Hijas de Héroes - 07:36
+Solución de la tarea.
+
+Video 179. Mostrar Rutas Hijas - Segundo RouterOutlet - 04:29
+Agregar componente y un nuevo “router-outlet” para que se vea la información.
+
+Video 180. Código fuente de la sección - 00:15
+Descargar los códigos hechos en la sección.
+
+
+
+SECCIÓN 13: HEROESAPP - ANGULAR MATERIAL & ANGULAR FLEX-LAYOUT
+22 CLASES - 2 H 25 MIN
+Video 181. Introducción a la sección - 02:22
+Se comenta lo que vamos a hacer, es una continuación de la sección anterior. Uso de Material Design y personalizar gráficamente la aplicación y el uso de un Json-server para mantener un pequeño backend.
+
+Video 182. Temas puntuales de la sección - 00:22
+Lo dicho anteriormente de forma escrita.
+
+Video 183. Demostración del objetivo final de la sección - 01:39
+El resultado final de lo que se hará en la sección.
+
+Video 184. Continuación del proyecto - HeroesApp - 05:34
+Estilos varios.
+
+https://www.npmjs.com/package/@angular/flex-layout
+https://material.angular.io/
+https://fonts.google.com/icons?selected=Material+Icons
+
+Video 185. Material Sidenav, Toolbar e iconos - 10:04
+Agregamos el sidebar y componentes adicionales.
+
+Video 186. Material Navlist - 10:26
+Agregamos el enrolamiento dentro del SideBar.
+
+Video 187. Heroes Backend - json-server - 07:21
+Quiero evitar agregar información de forma local. Para eso usamos json-server.
+
+Para correr el backend debemos dejarlo corriendo en un bash con el siguiente comando:
+
+Json-server --watch db.json
+
+Y luego podemos revisar que este corriendo en PostMan o en el browser. Dejamos las configuraciones hechas para consumir la API
+
+https://www.npmjs.com/package/json-server
+https://gist.github.com/Klerith/403c91e61d3c87284beb0dd138619958
+https://quicktype.io/
+
+Video 188. Heroes Service - Traer información de los héroes - 07:48
+Consumimos la información y la dejamos en consola.
+
+Video 189. Interfaz Héroe - 07:52
+Realizamos el archivo interface para definir qué tipo de valores tiene la colección. Tarea donde traemos la información del JSON a renderizar en el HTML.
+
+Video 190. Material Card - Flex Layout - 08:44
+Utilizamos un nuevo Modulo de Material: card. Renderizamos la información en pantalla.
+
+Video 191. Flex Layout - Diferentes resoluciones - 06:43
+Responsive con Material.
+
+Video 192. Tarea - HeroeTarjetaComponent - 05:49
+Sacar la tarjeta y usarlo como un componente reutilizable.
+
+Video 193. Tarea - PipeImagen - 06:23
+Vamos a usar un pipe para condicionar en caso de que el Héroe tenga o no una imagen. Por lo tanto se hará un pipe personalizado.
+
+Video 194. Tarea - Ruta Héroe y Editar Héroe - 07:41
+Hacer que los botones de la tarjeta funcionen y nos lleven a una ruta en particular. Se utiliza params y se deja hasta ahí para continuar después.
+
+Video 195. Pantalla de Héroe - 10:34
+Se hace como tarea el tomar el id de la ruta y se hace que se imprima por pantalla con formato JSON.
+
+Video 196. Diseño de la pantalla de Héroe - 06:39
+Hacer un diseño para ver la información obtenida en el video anterior.
+
+Video 197. Variables de entorno - 04:59
+El tener URL con raid “http://localhost:XXXX” hace que sea complejo el poder transportar esta información a un host definitivo, ya que no funcionará como localHost. Es por eso que se hace una variable para cambiar dicha raíz para cuando estemos en producción o en desarrollo.
+
+Video 198. Material Autocomplete - 11:31
+Ahora trabajamos en “/buscar”. Comenzamos con el autocomplete. 
+
+NOTA: Por algún motivo me bota la ruta el hacer el autocomplete. No puedo terminar de hacer el ejercicio.
+
+Video 199. Autocomplete - Segunda Parte - 10:03
+Terminando el autocomplete.
+
+Video 200. Tarea - Autocomplete cuando no encontró nada - 08:49
+Agregando condiciones al autocomplete.
+
+Video 201. Resumen de la sección - 03:27
+Lo que se ha hecho y lo que se espera para la próxima sección
+
+Video 202. Código fuente de la sección - 00:10
+Descarga del código que se ha hecho durante la sección.
