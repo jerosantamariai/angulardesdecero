@@ -49,6 +49,11 @@
             <mat-icon>done</mat-icon>
             Guardar
         </button>
+        <br>
+        <button mat-raised-button color="primary" *ngIf="heroe.id" (click)="borrarHeroe()">
+            <mat-icon>delete</mat-icon>
+            Borrar
+        </button>
 
     </div>
 
