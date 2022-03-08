@@ -120,3 +120,52 @@ Lo que se ha hecho y lo que se espera para la próxima sección
 
 Video 202. Código fuente de la sección - 00:10
 Descarga del código que se ha hecho durante la sección.
+
+
+
+SECCIÓN 14: HEROESAPP - CRUD (CONTINUACION CON ANGULAR MATERIAL)
+15 CLASES - 1 H 27 MIN
+Video 203. Introducción a la sección - 02:31
+Resumen de lo que se espera hacer en la sección. Sección importante por ser la primera vez que se hará CRUD completo.
+
+Video 204. Temas puntuales de la sección - 00:09
+Texto con resumen de lo que se dijo en el video anterior.
+
+Video 205. Demostración del objetivo final de la sección - 01:58
+Demostración gráfica de lo que se espera para la sección.
+
+Video 206. Continuación del proyecto - HeroesApp - 02:48
+Descargar e instalar paquetes NPM y dejar corriendo la aplicación, tanto el back como el front.
+
+Video 207. Diseño de la pantalla para agregar héroes - 12:30
+Armando un formulario tipo para poder agregar un héroe.
+
+Video 208. Insertar en base de datos - 10:36
+Se realizan los endpoints en el heroes.service.ts. Luego se llama en el constructor del componente donde estamos trabajando y hacemos la petición al momento de hacer click en el formulario.
+
+Video 209. Editar héroes - 10:42
+Agregamos el metodo PUT en heroe.service.ts. Incorporamos la información, para rutiar la información a editar e incorporamos los condicionales para el botón del formulario, donde “si existe un Id, entonces envíame a la ruta de editar, y si no existe, agrega uno nuevo. Ojo con el tuteo utilizando el params, para obtener la información que aparece en la URL.
+
+Video 210. Excepciones en nuestro ImagenPipe - 08:07
+Modificamos el Pipe para que pueda aparecer la información y manejamos las excepciones para que no veamos errores en consola por undefined que aparecen en algunas partes del código.
+
+Video 211. Eliminar registros - 06:21
+Ultimo Endpoint. Utilizamos el método delete. Hacemos el botón, llamamos el método en el service y realizamos la funcionalidad.
+
+Video 212. Pipes Puros e Impuros - 05:50
+Tenemos el inconveniente de cambiar la imagen y necesitamos refrescar la pagina para que se actualice la imagen. Vamos al Pipe, invocamos el pure y lo definimos como false. Esto realiza que la imagen se renderice nuevamente cuando se detecte un cambio.
+
+Video 213. Material Snackbar - 06:30
+Imprimir en pantalla que se realizó una acción luego de ejecutar una acción en la pagina (como agregar, modificar, borrar).
+
+Video 214. Material Dialog - 07:46
+Cuando nosotros queremos borrar un personaje, queremos que aparezca un aviso que nos diga que lo vamos a borrar para hacer una doble confirmación de la acción que estamos ejecutando.
+
+Video 215. Información desde y hacia el dialogo - 06:25
+“Pimponear” la información entre módulos para tener la información disponible.
+
+Video 216. Adecuar los textos de la pantalla de agregar - 04:36
+Renderizado condicional para la vista de agregar y editar, para que el titulo se vea adhoc a lo que se esta realizando.
+
+Video 217. Código fuente de la sección - 00:09
+Imagen con la información para descargar los códigos realizados en esta sección
