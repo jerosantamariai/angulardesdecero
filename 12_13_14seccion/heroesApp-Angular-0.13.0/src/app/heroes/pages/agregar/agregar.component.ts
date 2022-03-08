@@ -53,7 +53,7 @@ export class AgregarComponent implements OnInit {
         switchMap(({ id }) => this.heroesService.getHeroePorId(id))
       )
       .subscribe(heroe => this.heroe = heroe)
-      
+
     }
 
   }
@@ -77,6 +77,15 @@ export class AgregarComponent implements OnInit {
         })
     }
 
+  }
+
+  borrarHeroe() {
+    this.heroesService.borrarHeroe( this.heroe.id! )
+      .subscribe( resp => {
+
+        this.router.navigate(['/heroes']);
+
+      });
   }
 
 }
