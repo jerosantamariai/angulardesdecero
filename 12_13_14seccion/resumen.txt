@@ -169,3 +169,39 @@ Renderizado condicional para la vista de agregar y editar, para que el titulo se
 
 Video 217. Código fuente de la sección - 00:09
 Imagen con la información para descargar los códigos realizados en esta sección
+
+
+
+SECCIÓN 15: PROTECCIÓN DE RUTAS
+10 CLASES - 54 MIN
+Video 218. Introducción a la sección - 01:36
+Video que resume lo que haremos en esta sección. Autenticación de usuarios para permitir ver información privilegiada.
+
+Video 219. Temas puntuales de la sección - 00:17
+Texto con lo dicho en el video anterior.
+
+Video 220. Continuación de proyecto - HeroesApp - 02:31
+Volvemos a tomar la app de Heroes. Descarga la aplicación y levanta tanto el back y el frontend, dejando todo listo para continuar trabajando en el siguiente video.
+
+Video 221. Pantalla de Login Básico - 05:17
+Armamos los botones para poder realizar el login y logout con sus correspondientes enrutamientos.
+
+Video 222. AuthService - Servicio para mantener el estado de la autenticación - 06:45
+Hacemos un servicio para poder traer la información en el backend de los usuarios que están en ella. Realizamos las configuraciones necesarias para que “en caso de existir un usuario en la BBDD, muestra los héroes”. Esta no es una forma valida para realizar una autentificaron y fue repetido varias veces en el video. Esto es una muestra y se vera una verdadera autentificación en otra sección.
+
+Existe un problema con lo hecho, dado que igual podemos ver a los héroes si accedemos a la ruta de forma manual.
+
+Video 223. Mostrar la información del usuario activo - 06:23
+Traemos la información del usuario y podemos verla en pantalla.
+
+Video 224. Angular Guards - CanLoad - 12:55
+Aquí es donde realizamos las configuraciones necesarias para mostrar o no la información dado que esta autenticado o no. Para eso están los Guards. Al final del video surgió un “problema” que es que cuando la ruta ya estaba cargada, uno puede seguir entrando sin estar autenticado, algo que se soluciona con el video siguiente.
+
+Video 225. CanActivate - 05:18
+Utilizamos el caActivate para poder bloquear el ingreso.
+
+Video 226. Mantener la sesión del usuario - 12:57
+Aquí aprendemos a usar de mejor manera el LocalStorage. De esta forma, la información del usuario se hace persistente hasta que se realiza un logout.
+
+Video 227. Código fuente de la sección - 00:19
+Descarga del código.
