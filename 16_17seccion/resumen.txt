@@ -1,0 +1,68 @@
+SECCIÓN 16: FORMULARIOS - TEMPLETES Y LAZYLOAD
+20 CLASES - 2 H 19 MIN
+Video 228. Introducción a la sección - 03:03
+Video resumen de lo que veremos en esta sección donde muestra los alcances y como relacionaremos los formularios
+
+Video 229. Temas puntuales de la sección - 00:20
+Imagen con texto que resume lo dicho en el video anterior.
+
+Video 230. Inicio de la sección - Formularios - 04:05
+Ng new 06formulariosApp
+
+Realizamos la instalación del nuevo proyecto, instalamos el CSS de Bootstrap y desplegamos la app para continuar en el siguiente video.
+
+Video 231. Creación de módulos necesarios - 09:04
+Creando la primera parte de la infraestructura. Se crean módulos con —routing para generar archivos configurados sin la necesidad de tener que hacer tanto código y así poder trabajar directamente en una aplicación.
+
+Video 232. Componentes y LazyLoad de formularios - 10:05
+Realizando las rutas de la aplicación con sus respectivos componentes.
+
+Video 233. SideMenu - 07:12
+Se realizan los componentes necesarios para poder renderizar un Sidebar adhoc para la aplicación.
+
+Video 234. Template: Diseño del formulario básico - 08:31
+Se especifica la diferencia entre Formulario por template y reactivo.
+
+Template: Se ejecuta a partir del HTML. O sea, Mucho HTML y poco TS. (Para apps mas sencillas)
+Reactivo: Se ejecuta a partir del TS. O sea, Mucho TS y poco HTML. (Para apps con más control)
+
+En el video realizamos un formulario básico para Template>Básicos
+
+Video 235. Template: FormsModule - 10:42
+Importamos el FormsModule directamente en el template.module para permitir que Angular tome el control del formulario y asi no se este refrescando el formulario cada vez que apretamos el botón. Realizamos la primera funcionalidad para disparar la app al momento de apretar el botón. Hay ciertos problemas con respecto al manejo por Formularios y lo muestra en los últimos minutos del video, como por ejemplo el que sea un campo requerido o incluso si se necesita una validación de números.
+
+Video 236. Template: Mostrar mensajes de error - 09:00
+Realizamos validación para poder enviar el formulación como corresponde. Hay una modificación al usar Angular13 con respecto a lo que se ve en el video.
+
+Video 237. ViewChild - 05:00
+Se hará una optimización de la validación anterior. Se utiliza el decorador ViewChild para poder traer la información de la referencia local para luego utilizarla en el resto del .ts.
+
+Video 238. Template: Validar número igual mayor a 0 - 06:53
+Se realiza tarea para realizar validación de un número. Parecido al video anterior, utilizando el input de precio.
+
+Video 239. Directivas personalizadas - CustomMin - Opcional - 13:57
+Se realiza por primera vez una directiva para personalizar un input. Se trabaja con un nuevo archivo en la carpeta “directives”.
+
+Video 240. Template: Limpiar el formulario - 05:44
+En la función guardar al final de todo el código al cierre de los {} se resetea el formulario con resetForm.
+
+Video 241. Template: Formularios dinámicos y arreglos - 11:18
+HTML base para trabajar en Template Dinámicos. Realizamos de tarea la validación del botón guardar. Se realiza una input para ir agregando de forma dinámica nueva información. Se termina el próximo video. Lo dinámico del formulario es que más adelante le agregamos un ngFor para poder ir observando cada elemento que vamos agregando al formulario ANTES de enviar el formulario completo.
+
+Video 242. Agregar elementos de forma dinámica - 07:05
+*Importante*
+
+Video 243. Eliminar elemento creado de forma dinámica - 02:44
+Agregamos un botón a los inputs con la información y se le agrega la funcionalidad de eliminar usando sílice en el TS.
+
+Video 244. Agregar juegos favoritos - 06:11
+Agregamos funcionalidad para incluir nuevos favoritos.
+
+Video 245. Template: Radio, Check y Switches - 08:55
+Armando el HTML para utilizar los 3 componentes de Bootstrap.
+
+Video 246. Template: Validando Radios, Checks y Switches - 09:15
+Validaciones a los 3 componentes.
+
+Video 247. Código fuente de la sección - 00:18
+Descarga del código hecho durante el curso.
