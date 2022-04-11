@@ -30,6 +30,7 @@ export class BasicosComponent implements OnInit {
   guardar() {
     console.log(this.myForm);
     console.log("guardado");
+    this.myForm.resetForm();
   };
 
 }
