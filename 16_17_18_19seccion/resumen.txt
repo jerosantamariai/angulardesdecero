@@ -121,3 +121,57 @@ Revisamos la pagina de Angular (www.angular.io)
 
 Video 263. Código fuente de la sección - 00:10
 Link para descargar código de la sección.
+
+
+
+SECCIÓN 18: FORMULARIOS: VALIDACIONES MANUALES Y ASÍNCRONAS
+16 CLASES - 1 H 36 MIN
+Video 264. Inicio de sección - 01:43
+Continuamos con el ejercicio de la sección anterior. Resumen de lo que haremos en esta donde haremos validaciones personalizadas (como 2 contraseñas iguales) y validaciones asíncronas.
+
+Video 265. Temas puntuales de la sección - 00:25
+Texto resumen con lo que se dijo anteriormente.
+
+Video 266. Continuación de proyecto - 05:30
+Se deja una tarea en donde se pide realizar el enrutamiento a los nuevos módulos y componentes nuevos para realizar esta sección con registro y login.
+
+Video 267. Resolución de la tarea - Ruta y LazyLoad - 05:42
+Se realiza la tarea del video anterior.
+
+Video 268. Diseño de la pantalla de registro - 06:24
+Se realiza el diseño de un formulario tipo para realizar validaciones para un registro de usuario en una pagina.
+
+Video 269. Validar contra una expresión regular - 10:57
+Expresión regular se refiere para asegurarse de que un string cumpla y tenga ciertos caracteres especiales para poder introducirlo.
+
+Video 270. Evaluar un email - 03:59
+Se usa una nueva expresión regular para definir el formato de email. Ojo que Validators tiene una validación de correo pero no es muy precisa.
+
+Video 271. Validaciones personalizadas - 08:04
+Se hace la validación a una palabra en particular. Puede que sea mas extensivo mas adelante. Puntualmente es para el input de username (para que no existan usuarios con el mismo nombre).
+
+Video 272. Separar la lógica de validaciones del componente - 09:17
+Factorizamos las validaciones para que puedan ser reutilzadas y no caer en errores de principios de programación. Se realiza un nuevo folder en “Shared” para compartirlo de forma global en el programa, aun que también se muestra una forma de compartirlo de forma mas especifico en algunos bloques de código. La otra forma, es generarse un servicio. IMPORTANTE
+
+Video 273. Validar contraseñas iguales - 13:11
+IMPORTANTE: Se realiza una validación para que la contraseña reingresada sea exactamente igual que la que se ingreso anteriormente. 
+
+***No me resulta como corresponde al intentar hacerlo con una validación global***.
+
+Video 274. Preparaciones para Validaciones Asíncronas - 04:40
+Dejamos funcionando el JSON-Server y se revisa la información que trae un recurso descargable. Se hacen consultas y vemos donde se generan errores y donde no. Ahora tenemos un mini Backend para trabajar.
+
+Video 275. Validaciones asíncronas - 10:06
+Comenzamos a trabajar con el 3er argumento del FormGroup, Validaciones Asíncronas.
+
+Video 276. Estado del formulario - 04:35
+“Conceptual” del como se encuentra el formulario.
+
+Video 277. Errores personalizados - 05:00
+Solucionamos el problema del tipo de error que debe entregar en pantalla. En este caso para email usando 3 alternativas: “correo obligatorio”, “No es un correo” y “El correo esta en uso”. El problema de este video es que tiene mucha lógica en el HTML, algo que se solucionará en el próximo video.
+
+Video 278. Mensaje de error personalizado - 06:26
+Se realiza una optimización del código y se traspasa parte de la lógica implementada en el HTML al TS.
+
+Video 279. Código fuente de la sección - 00:12
+Descarga del código de esta sección.
