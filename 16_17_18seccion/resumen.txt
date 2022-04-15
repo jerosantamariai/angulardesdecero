@@ -66,3 +66,58 @@ Validaciones a los 3 componentes.
 
 Video 247. Código fuente de la sección - 00:18
 Descarga del código hecho durante el curso.
+
+
+
+
+SECCIÓN 17: FORMULARIOS REACTIVOS
+16 CLASES - 1 H 47 MIN
+Video 248. Introducción a la sección - 02:00
+Resumen de lo que se vera en esta sección. Seguimos trabajando en la app de la sección anterior, pero esta vez, trabajando con formularios reactivos (lógicamente en el TS)
+
+Video 249. Temas puntuales de la sección - 00:30
+Resumen escrito de los temas a ver.
+
+Video 250. Continuación de proyecto - Formularios - 08:58
+Copiamos el mismo código hecho en el HTML de la sección anterior sin llevarnos el TS. Eliminamos los errores y dejamos funcional la aplicación para continuar en el próximo video.
+
+Video 251. Primeros pasos en formularios reactivos - 06:45
+Importamos el ReactiveFormModule en reactive.module.ts. Se recomienda usar un solo tipo de formulario. Comenzamos a asignar atributos en el HTML para que el TS entienda que input estará a cargo de cada variable que tendrá el FormGroup.
+
+Video 252. FormBuilder - 05:44
+Utilizamos FormBuilder cuando vemos que el formulario es más grande de lo que pensábamos, y para evitar redundancias de poner FormAlgo en cada una de las variables asignadas en el formulario, usamos este servicio que lo trabajamos en el constructor.
+
+Video 253. Validaciones básicas - Forms Validator - 06:31
+Se trabaja con las validaciones mínimas del formulario trabajando en el TS.
+
+Video 254. Mostrar mensajes de error - 07:12
+Se genera la validación en TS.
+
+Video 255. Submit del formulario - 07:32
+Forma alternativa a deshabilitar el botón y permitir hacer click en el pero desplegando los errores donde los hay. Se agrega en la función el reseteo de la información en el formulario una vez apretado el botón.
+
+Video 256. Tarea: Validar un nuevo campo - 08:45
+Validaciones varias.
+
+Video 257. FormArray - 10:50
+Para agregar nuevos favoritos y usar el input dinámico del formulario.
+
+Video 258. Agregar controles al FormArray - 11:00
+Continuación del video anterior.
+
+Video 259. Eliminar elementos de un FormArray - 04:04
+Borrar un favorito de la parte del formulario dinamico.
+
+Video 260. Formularios Reactivos: Switches - 12:14
+Realizamos las validaciones correspondientes en Switches, queda pendiente información para el próximo video.
+
+Video 261. Actualizar el valor de la persona - 08:13
+Recordemos que en el video anterior hicimos reactivo el formulario pero no enviamos la información de la persona. Aquí completamos el ciclo y enviamos la información al apretar el botón “Guardar”. En el minuto 2:00 aproximadamente hace referencia del motivo para de diferencia entre botón normal y de tipo “Submit” y es dependiendo si hay 1 o muchos formularios en pantalla.
+
+3:30 habla sobre como hacer reactivo el cambio de valores de una persona y no que cambie exclusivamente cuando se envía el formulario.
+
+Video 262. Documentación de formularios reactivos en Angular - 06:05
+Revisamos la pagina de Angular (www.angular.io)
+
+Video 263. Código fuente de la sección - 00:10
+Link para descargar código de la sección.
