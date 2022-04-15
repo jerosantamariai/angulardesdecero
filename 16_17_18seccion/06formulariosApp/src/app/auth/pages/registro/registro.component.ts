@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { emailPattern, nombreApellidoPattern } from 'src/app/shared/validator/validaciones';
 import { camposIguales } from '../../../shared/validator/validaciones';
+import { EmailValidatorService } from '../../../shared/validator/email-validator.service';
 
 @Component({
   selector: 'app-registro',
@@ -19,7 +20,7 @@ export class RegistroComponent implements OnInit {
     // nombre: [ '', [ Validators.required, Validators.pattern( this.nombreApellidoPattern ) ]],
     // email: [ '', [ Validators.required, Validators.pattern( this.emailPattern ) ]],
     nombre: [ '', [ Validators.required, Validators.pattern( nombreApellidoPattern ) ]],
-    email: [ '', [ Validators.required, Validators.pattern( emailPattern ) ]],
+    email: [ '', [ Validators.required, Validators.pattern( emailPattern ) ], [ this.emailValidator ]],
     username: [ '', [ Validators.required ]],
     password: [ '', [ Validators.required, Validators.minLength(6) ]],
     password2: [ '', [ Validators.required ]],
@@ -29,7 +30,27 @@ export class RegistroComponent implements OnInit {
     ]
   })
 
-  constructor( private fb: FormBuilder) { }
+  // emailErrorMsg: string = '';
+
+  get emailErrorMsg(): string {
+
+    const errors = this.miFormulario.get('email')?.errors;
+
+    if ( errors?.['required'] ) {
+      return 'correo obligatorio';
+    } else if ( errors?.['pattern'] ) {
+      return 'No es un correo';
+    } else if ( errors?.['emailTomado'] ) {
+      return 'El correo esta en uso';
+    }
+
+    return '';
+
+  }
+
+
+  constructor( private fb: FormBuilder,
+               private emailValidator: EmailValidatorService) { }
 
   ngOnInit(): void {
   }
@@ -37,6 +58,19 @@ export class RegistroComponent implements OnInit {
   campoValido( campo: string) {
     return this.miFormulario.get(campo)?.invalid && this.miFormulario.get(campo)?.touched;
   }
+
+  // ESTAS VALIDACIONES FUERON OPTIMIZADAS
+  // emailRequired() {
+  //   return this.miFormulario.get('email')?.errors?.['required'] && this.miFormulario.get('email')?.touched;
+  // }
+
+  // emailFormato() {
+  //   return this.miFormulario.get('email')?.errors?.['pattern'] && this.miFormulario.get('email')?.touched;
+  // }
+
+  // emailTomado() {
+  //   return this.miFormulario.get('email')?.errors?.['emailTomado'] && this.miFormulario.get('email')?.touched;
+  // }
 
   enviarFormulario() {
     console.log(this.miFormulario.value);

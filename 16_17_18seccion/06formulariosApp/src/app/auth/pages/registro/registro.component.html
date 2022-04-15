@@ -19,7 +19,10 @@
                 <label class="col-sm-3 col-form-label">Email: </label>
                 <div class="col">
                     <input type="email" class="form-control" placeholder="Email del usuario" formControlName="email">
-                    <span class="form-text text-warning" *ngIf="campoValido('email')">Ingresa correo</span>
+                    <!-- <span class="form-text text-warning" *ngIf="emailRequired()">Ingresa correo</span>
+                    <span class="form-text text-warning" *ngIf="emailFormato()">Ingresa un correo valido</span>
+                    <span class="form-text text-warning" *ngIf="emailTomado()">Correo esta en uso</span> -->
+                    <span class="form-text text-info" *ngIf="campoValido('email')">{{ emailErrorMsg }}</span>
                 </div>
             </div>
 
@@ -34,16 +37,16 @@
 
             <!-- Password -->
             <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Email: </label>
+                <label class="col-sm-3 col-form-label">Password: </label>
                 <div class="col">
                     <input type="password" class="form-control" placeholder="Password del usuario" formControlName="password">
-                    <span class="form-text text-warning" *ngIf="campoValido('password')">Ingresa mas de 6 caracteres</span>
+                    <span class="form-text text-danger" *ngIf="campoValido('password')">La contraseña debe de ser mayor de 6 caracteres.</span>
                 </div>
             </div>
 
             <!-- Confirmación Password -->
             <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Email: </label>
+                <label class="col-sm-3 col-form-label">Password: </label>
                 <div class="col">
                     <input type="password" class="form-control" placeholder="Confirma Password del usuario" formControlName="password2">
                     <span class="form-text text-warning" *ngIf="campoValido('password2')">La contraseña no es igual</span>
