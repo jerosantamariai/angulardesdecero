@@ -1,0 +1,45 @@
+SECCIÓN 19: FORMULARIOS REACTIVOS - MULTIPLES SELECTORES ANIDADOS
+14 CLASES - 1 H 31 MIN
+Video 280. Introducción a la sección - 02:11
+Video en qué me permite rellenar un selector dada la información que le ponemos en uno anterior. Por ejemplo, pongo un continente, y en el segundo se cargan los países del continente elegido. Es preferible hacerlo con un formulario reactivo.
+
+EXPOST: Este video es importante debido a que hace una pequeña App en poco tiempo y puede ayudar a recordar la información correspondiente para estructurar un trabajo de 0.
+
+Video 281. Temas puntuales de la sección - 00:19
+Script con la información confirmada anteriormente.
+
+Video 282. Vista previa - 03:16
+Vemos cómo funciona la aplicación, para tener una idea general de lo que alcanzaremos. Revisamos el material adjunto que es Bootstrap y la API para poder trabajar. Haré una modificación de esto y me trabajare con UNA API similar (https://restcountries.com/) por qué la que pide no esta disponible.
+
+Video 283. Inicio de proyecto - Selectores - 03:02
+Se realizan una estructura básica para poder trabajar con en la app usando el bash.
+
+Video 284. Estructura de directorios para esta aplicación - 08:35
+Se le agrega estructura HTML para hacer un formulario.
+
+Video 285. Formulario reactivo - primer selector - 09:04
+Se agrega las primeras funciones en el TS.
+
+Video 286. Selector de regiones - 06:03
+El primer selector debe ser manipulado manualmente debido a que no tiene un Endpoint con la información que necesitamos. Se realizan las configuraciones de manera de obtener el nombre del continente y que este tenga un valor adhoc a lo que utiliza la API. OJO: AL EXISTIR CAMBIO EN LA API SE GENERAN CAMBIOS EN LOS ATRIBUTOS A BUSCAR. SE USA NAME Y CCA3.
+
+Video 287. Segundo selector anidado - 10:39
+La información que entrega la API es muy grande y es por eso que permite hacer un filtro de la información para que la respuesta sea más rápida. En una primera parte del video se trabaja realizando la conexión con la API, ya para la segunda parte del video se revisa como obtener del Frontend la variable para poder realizar la querrá correspondiente, pero se deja avisado que se optimizara en el próximo video.
+
+Video 288. Limpiar país cuando el primer selector cambia - 07:40
+Uno de los conflictos que quedaron pendientes en el video anterior es que cuando cambiamos de región, el país no se resetea. Aquí se soluciona ese problema, ademas de limpiar un poco más el código. (Se usa operador RXJS)
+
+Video 289. Tercer selector anidado - Fronteras - 10:07
+Generamos en nuestro servicio la extracción de la información en la API, mientras que obtenemos la información de lo que tenemos en el front sobre el código correspondiente al país que elegimos.
+
+Video 290. Llenar tercer selector - Fronteras - 08:40
+Se muestran los países fronterizos. Hay muchos problemas con el código por el cambio de angular y falta terminar.
+
+Video 291. Mejorar la experiencia de usuario - 07:35
+Se muestran varias formas de habilitar y deshabilitar los inputs dependiendo de la necesidad, como por ejemplo que se deshabilite los inputs en caso de que no se haya elegido el input anterior requerido. Finalmente queda la app con la forma de ir mostrando cada input una vez que se ingresa un input requerido.
+
+Video 292. Cambiar códigos de fronteras por los nombres de los países - 13:22
+El ultimo input solo me muestra (debería) los códigos de los países por lo que ahora modificamos el código para que se vea el nombre completo. Queda pendiente por no poder ver los códigos de países fronterizos.
+
+Video 293. Código fuente de la sección - 00:19
+Descarga del código de la sección.
