@@ -1,0 +1,24 @@
+Video 298. Explicación sobre los ciclos de vida - 11:27
+Los Hooks son nombres reservados del sistemas y solo se pueden usar para lo que fueron creados. Se ejecuta y explican varios Hooks ademas de que definirlos.
+
+- Constructor: Inyecciones de dependencias que el componente necesita o si hay algo que necesita el HTML necesita antes de ser construido. ngonInit: El componente esta inicializado y tenemos el HTML, traer información y llenar propiedades.
+- ngOnChanges: Si el componente no tiene inputs o él no los usa, el framework no lo llamará. De un componente padre a uno hijo.
+- ngOnChanges:
+- ngDoCheck: Inmediatamente después que el NgOnChanges se dispara y después que se detecta el ciclo de detección de cambios.
+- ngAfterContentInit:
+- ngAfterContentChecked:
+- ngAfterViewInit:
+- ngAfterViewChecked:
+- ngOnDestroy: Se llama inmediatamente después de que el componente sea destruido.
+
+Video 299 ngOnChanges - 04:05
+Muestra como hacer operativo el OnChanges.
+
+Video 300. ngOnDestroy - 07:50
+Se aplica para un segundero.
+
+Video 301. Más información sobre el ciclo de vida - 01:42
+Mas información y ejercicios en https://angular.io/guide/lifecycle-hooks. El curso o en algunas de las siguientes secciones se verán ejercicios prácticos diferentes para cada uno de los hooks.
+
+Video 302. Código fuente de la sección - 00:08
+Código de la sección para descargar.
