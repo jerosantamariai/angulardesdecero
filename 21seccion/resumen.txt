@@ -1,0 +1,83 @@
+SECCIÓN 21: MAPAS EN ANGULAR
+24 CLASES - 2 H 19 MIN
+Video 303. Introducción a la sección - 03:16
+Video resumen de lo que haremos en la sección: Utilizar mapas de MapBox (gratuitos).
+
+Video 304. Temas puntuales de la sección - 00:24
+Resumen escrito de lo anterior.
+
+Video 305. Vista previa - 02:26
+Como se verá la aplicación para entender lo que haremos.
+
+Video 306. Inicio de sección - MapasApp - 04:59
+Creación de la aplicación y visitamos las paginas de las herramientas que usará la aplicación.
+
+- Bootstrap
+- MapBox (https://docs.mapbox.com/mapbox-gl-js/api/)
+
+Video 307. Creando los componentes necesarios y rutas - 08:54
+Creamos componentes y servicios varios para funcionar.
+
+Video 308. Menú de la aplicación - 05:49
+Realizamos el menú de la aplicación para navegar dentro de la aplicación.
+
+Video 309. Mostrar un mapa en pantalla completa - 09:44
+Es tentador hacer lo que uno se le da la gana hacer, pero si se siguen las instrucciones al pie de la letra de lo que aparece en el video, funciona sin problemas y se muestra el mapa.
+
+Video 310. Punto central, zoom y accessToken de forma global - 05:33
+Dentro de la constante de mapa incorporada en el TS, se colocan los atributos que buscamos. Vale destacar que mapbox utiliza (long, lat) que es lo contrario a lo que usa googleMaps.
+
+Video 311. Página Zoom-Range - Diseño y tarea - 06:45
+Hacemos lo mismo que en el video anterior para el componente de Zoom-Range y le agregamos estilos Bootstrap para lograr el objetivo.
+
+Video 312. Controlar el objeto del mapa - ZoomIn y ZoomOut - 09:54
+Agregamos funcionalidades a los botones de Zoom in y out. Adicionalmente cambiamos la configuración de la MapBox para pode reutilizar el contenido de la pantalla con ngAfterViewInit (reemplazando al ngOnInit) para utilizarlo en el futuro.
+
+Video 313. Controlar el nivel del Zoom - 05:32
+Hacemos funcionar el nivel del zoom. Hay un problema que será solucionado en el video siguiente.
+
+Video 314. Crear EventListeners del mapa - 04:39
+Dejamos funcionando el zoom como corresponde.
+
+Video 315. Restringir el Zoom y uso del Range - 05:36
+Hacer funcionar el range para el zoom y limitar el zoom a un valor.
+
+Video 316. Obtener las coordenadas centrales del mapa - 06:54
+Las coordenadas del centro de la aplicaciones están centradas de forma fija en el mapa.
+
+Video 317. Marcadores en el mapa - 06:07
+Atento a la documentación en “Markers & Controls” de MapBox.
+
+Video 318. Añadir marcadores de forma dinámica - 06:28
+Configuramos la posibilidad de agregar nuevos marcadores y que sean “Draggables”. Ademas, tomamos del material adjunto la linea de texto que sigue para poder aleatoria un color para usarlo en los nuevos markers.
+
+const color = "#xxxxxx".replace(/x/g, y=>(Math.random()*16|0).toString(16));
+
+Al final del video quedan 2 problemas:
+
+- Si cambio de pagina pierdo los marcadores (Video 321).
+- Se hacen los marcadores, pero no aparece en lista (Video 319).
+
+Video 319. Mantener el arreglo de marcadores y colores - 06:37
+Se configuran los marcadores y aparecen listados en un menú configurados con color.
+
+Video 320. FlyTo - 07:05
+Hago click en un marcador y me centra la posición donde se encuentra el marcador.
+
+Video 321. Guardar y leer del LocalStorage - 13:41
+Usualmente usaríamos un Backend para guardar la información, pero utilizaremos el LocalStorage. Tengo un problema en este ejercicio que los marcadores no quieren actualizar su posición, lo que no me permite guardar correctamente en el LocalStorage.
+
+Video 322. Nota de actualización - 00:23
+Información sobre un error recurrente del video 321 que fue solucionado.
+
+Video 323. Borrar y actualizar marcadores - 06:08
+Se soluciona el error que me dio en el video 321 con respecto al LocalStorage. Luego se configura que al hacer dobleclick en la lista de marcadores se elimine el marcador deseado.
+
+Video 324. Lista de propiedades - Diseño y estructura de la data - 05:29
+Vamos a la ultima parte de esta sección donde realizamos la estructura básica del componente “Propiedades” y utilizaremos el formato de cards de Bootstrap utilizando material adjunto. Lo que deseamos hace es mostrar en la imagen un minimapa que será desarrollado en el video siguiente.
+
+Video 325. Componente MiniMapa - 06:48
+Agregamos el minimapa. Se hizo todo lo del video, pero no se consiguió mostrar el minimapa - REVISAR.
+
+Video 326. Código fuente de la sección - 00:09
+Descarga de los códigos de la sección.
