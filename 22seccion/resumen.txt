@@ -1,0 +1,56 @@
+SECCIÓN 22: GRÁFICAS EN ANGULAR
+16 CLASES - 1 H 21 MIN
+Video 327. Introducción a la sección - 01:51
+Explicación de lo que haremos en esta sección: mapas.
+
+EX-POST: Dejare pendiente el realizar el código de esta sección debido a los múltiples conflictos que hay con Angular13 y la versión de los NG2Charts. De todas maneras veré el video y realizaré el resumen correspondiente. Desde video 334 no pude continuar.
+
+Video 328. Temas puntuales de la sección - 00:14
+Lo mismo del video anterior pero escrito.
+
+Video 329. Demostración del objetivo final de la sección - 01:12
+Se muestra el resultado final para entender lo que haremos en esta sección.
+
+Video 330. Inicio de proyecto - GraficasApp - 03:30
+Descargamos la paquetería de Angular, instalamos Bootstrap y revisamos la documentación dejada para trabajar en esta sección:
+
+- Ng2-charts (https://valor-software.com/ng2-charts/)
+- Bootstrap
+
+Usamos una librería hecha para Angular por qué estos están optimizados para trabajar interactuando con el ciclo de detección de cambios del framework y no así con otros que son válidamente utilizables, pero que no cuentan con dichas detecciones.
+
+Video 331. Estructura del proyecto - 05:31
+Se realiza la instalación de los diversos módulos, componentes y servicios de la aplicación.
+
+Video 332. Rutas y LazyLoad - 06:35
+Realizada la carpintería de rutas en la aplicación.
+
+Video 333. Menú de la aplicación - 05:57
+Trabajamos con una mascara HTML básica para armar la aplicación.
+
+Video 334. Gráfica de barra - 07:42
+Instalamos la librería correspondiente y comenzamos a trabajar primero en las gráficas de barra. Hay material adjunto. 
+
+Video 335. Personalizando la gráfica - 10:12
+Se revisa la documentación, se itera en los controles y se revisa los diferentes cambios en los atributos del gráfico.
+
+Video 336. Componente personalizado para mostrar gráficos - 05:29
+Como se están haciendo varios gráficos, hay mucho código que genera una mala practica y para eso se factoría los controles principales del trafico en componente. Se pide tarea en la que se factoría la información.
+
+Video 337. Añadir flexibilidad a nuestro componente personalizado - 08:03
+Se manipulan los diferentes atributos del gráfico para añadir personalización.
+
+Video 338. Gráfica de Dona - 05:09
+Se hace un gráfico de dona y se manipulan las diferentes variables.
+
+Video 339. Gráfica de Dona mediante petición Http - 06:03
+Se realiza la petición para obtener información para el gráfico.
+
+Video 340. Mostrar la información en la gráfica - 07:00
+Se obteniene el resultado dado lo hecho en el video anterior.
+
+Video 341. Cambiar la información mediante RXJS - 06:25
+Personalización.
+
+Video 342. Código fuente de la sección - 00:14
+Descarga del código de la sección.
