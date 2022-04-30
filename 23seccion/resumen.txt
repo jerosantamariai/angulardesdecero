@@ -1,0 +1,45 @@
+SECCIÓN 23: DIRECTIVAS PERSONALIZADAS DE ANGULAR
+14 CLASES - 1 H 24 MIN
+Video 343. Introducción a la sección - 02:51
+Video Introducción. Directivas sirven para expandir una funcionalidad. Directivas son por ejemplo Material Design. Veremos modificaciones físicas al HTML. Ocultar o mostrar algo. Usaremos MathBottom y otras personalizadas. Si bien es importante la sección y se genera una nueva configuración, podemos ver que es un poco redundante toda la información.
+
+Video 344. Temas puntuales de la sección - 00:17
+Script del video anterior.
+
+Video 345. Inicio de proyecto - DirectivasApp - 03:57
+Instalamos la aplicación y revisamos la documentación de Angular al respecto. Además instalamos bootstrap.
+
+Video 436. Estructura de la aplicación - 09:07
+Creación de la estructura que se usara en la app. Generamos las rutas e incorporamos un poco de HTML a la vista.
+
+Video 347. Formulario reactivo tradicional - 08:02
+Incorporamos validación al formulario creado en el video anterior.
+
+Video 348. Directiva personalizada - ErrorMsg - 07:05
+Generamos con el CLI una directiva, configuramos y vemos su ciclo de vida.
+
+Video 349. Directive Input - Cambiar el color del host - 07:58
+Observamos diferentes formas de tener el control de cambio del color de un tag.
+
+Video 350. Cambiar el mensaje de la etiqueta - 05:10
+Observamos diferentes formas de cambiar el texto. Incluye cambiar clases.
+
+Video 351. Reaccionar a los cambios en tiempo real - 09:50
+Se hacen botones para condicionar cambios dependiendo de la acción, por ejemplo cambio de mensaje y de color. Se realizan condicionales importantes
+
+Video 352. Input setters - 10:50
+Se realiza una optimización del código realizado. Se deja un código para aleatoria el color. Es el siguiente (se uso en los mapas):
+
+const color = "#xxxxxx".replace(/x/g, y=>(Math.random()*16|0).toString(16));
+
+Video 353. Resolución del problema - 04:41
+Queda en el video algo pendiente y se resuelve aquí.
+
+Video 354. Mostrar y Ocultar si tiene error el campo - 05:43
+Sacar el gIf y usar una directiva para que aparezca. Se trabaja agregando una clase.
+
+Video 355. Directivas estructurales personalizadas - 08:12
+Aqui se destruye el HTML o se construye dependiendo del error
+
+Video 356. Código fuente de la sección - 00:12
+Descarga de los códigos de la sección.
