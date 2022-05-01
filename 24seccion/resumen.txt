@@ -1,0 +1,103 @@
+SECCIÓN 24: AUTH BACKEND - MEAN
+25 CLASES - 2 H 36 MIN
+Video 357. Introducción a la sección - 02:07
+Comenzaremos a utilizar un modelo de trabajo funcional completo con un backend y un frontend robusto.
+
+Video 358. Temas puntuales de la sección - 00:18
+Scripting resumen del video anterior.
+
+Video 359. Vista previa - 03:37
+Vemos como quedara la aplicación para entender lo que realizaremos.
+
+Video 360. Inicio de proyecto - Auth MEAN - 03:57
+Inicializamos el proyecto por el Backend realizando la instalación de nuestro package.json.
+
+Video 361. Npm - Nodemon - 05:16
+Para no estar constantemente corriendo el script para ver si funciona o no lo que hemos ido cambiando, instalamos Nodemon.
+
+https://www.npmjs.com/package/nodemon
+
+Se instala: npm i nodemon
+Se ejecuta: nodemon index.js
+
+Se realizan una scripts para apoyar el scripting en bash.
+
+Video 362. Instalaciones necesarias para el backend - 04:46
+Se realizan instalaciones varias:
+
+npm i bcryptjs cors dotenv express express-validator jsonwebtoken mongoose
+
+bcryptjs: Encriptación de datos, Hash de datos de una sola vía
+Cors: Control de acceso. Aceptar peticiones de otros dominios.
+dotenv: Variables de entorno.
+express: Generación de endpoints
+express-validator: Validación de endpoints
+jsonwebtoken: Generación de tokens
+mongoose: Conexión con la BBDD
+
+Para instalar versiones anteriores y hacer un downgrade, en caso de que no funcione lo que aquí se explica, se puede instalar una versión anterior de la siguiente forma:
+
+npm i “paquete”@version
+
+Video 363. Configurar servidor de Express - 08:26
+Comenzamos con las configuraciones y levantamos el servidor. 
+
+Middleware: Funcionarial que se ejecuta cuando él interprete pasa evaluando cada linea de código.
+
+Video 364. Crear las rutas de nuestra aplicación - 11:57
+Comenzamos a trabajar con las rutas de la API. Al mismo tiempo se utiliza y se enseña a cómo usar Postman.
+
+Video 365. Separar el controlador de la ruta - 06:46
+Reorganizamos las rutas en sus archivos correspondientes por buenas practicas.
+
+Video 366. Configurar CORS y body de las peticiones - 06:30
+Dejamos configurado el CORS y el formato de como recibiremos las peticiones. Luego, trabajamos en Postman para ver si las peticiones son recibidas.
+
+Video 367. Variables de entorno de Node - 04:51
+Agregamos nuestro archivo .env para poder dejar nuestras variables de entorno que serán usadas y no registradas en internet en caso de que las subamos a Github. Cuando se hacen cambios hay que bajar el servicio y volver a subirlo. NO OLVIDAR EL GITIGNORE.
+
+Video 368. Servir una página HTTP desde Express - 03:51
+Incorporamos un template para poder ver información renderizada de nuestro servidor.
+
+Video 369. Validar campos obligatorios - 09:45
+Hacemos nuestras validaciones para que no se ingrese información incorrecta a nuestro backend. Para esto tenemos que considerar que en los métodos de nuestras rutas podemos incorporar 3 atributos: primero va la ruta, luego los middleware’s (arreglo) y finalmente el controlador. De esta forma el sistema se asegura de utilizar todos los middleware’s para ejecutar el controlador. Se ejecutan las validaciones de forma secuencial.
+
+Video 370. Tarea: Validar campos - 04:20
+Se realiza tarea para validar el POST en register.
+
+Video 371. Custom Middleware - ValidarCampos - 07:08
+Optimizamos código repetido para los errores en el Middleware.
+
+Video 372. Configurar base de datos - MongoDB - 09:07
+https://www.mongodb.com/atlas/database
+
+Se ven las configuraciones base en la pagina de MongoDB. Próximo video, la conexión.
+
+Video 373. Conectar MongoDB Atlas - Compass y Node - 06:16
+Aqui realizamos la conexión con la BBDD y el video tiene un error por deprecación en la que los atributos incorporados en el await ya no son necesarios por que vienen por defecto.
+
+Video 374. Crear modelo de base de datos - 03:38
+Creamos el modelo de usuario en la base de datos.
+
+Video 375. Crear usuario en base de datos - 10:47
+Realizamos las configuraciones iniciales para poder enviar un nuevo usuario a la base de dato y verificamos si la validación del correo único funciona. El problema ocurre con el password que se puede observar lo que es una mala práctica y debe ser “hasheado” para que no sea visible y que se vera en el próximo video.
+
+Video 376. Hash de la contraseña - 04:47
+Para que el password del cliente no sea visible, se realiza un hash de él para que no sea fácilmente identificable.
+
+Video 377. Generar JsonWebToken - 13:00
+https://jwt.io/
+
+Para usarlo en Angular para saber si el usuario esta o no autenticado.
+
+Video 378. Login de usuario - 08:00
+Realizamos el método para hacer el login.
+
+Video 379. Renovar y validar el JWT - 12:46
+Trabajamos con el ultimo endpoint. Se me genera un conflicto con el console.log al verificar la información de uid. Varios alumnos tuvieron el mismo problema pero al intentar resolverlo de las formas propuestas, no logré traer el valor del userId. uid = undefined.
+
+Video 380. Solución a la tarea - Generar JWT - 03:54
+Resolución para volver a generar un nuevo token.
+
+Video 381. Código fuente de la sección - 00:08
+Descarga del código de la sección.
