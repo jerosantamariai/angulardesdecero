@@ -13,7 +13,7 @@ export class AuthService {
   private _usuario!: Usuario;
 
   get usuario() {
-    return this._usuario;
+    return { ...this._usuario};
   }
 
   constructor( private http: HttpClient) { }
